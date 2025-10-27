@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0261.png",
+  "ground_truth": {
+    "invoice_no": "43674884",
+    "invoice_date": "04/22/2014",
+    "total_gross_worth": "$ 179,07",
+    "seller": "Miller-Williams Unit 1322 Box 8755 DPO AE 56991",
+    "client": "Stokes, Cain and Fox USS Johnston FPO AE 28022"
+  },
+  "extracted": {
+    "invoice_no": "43674884",
+    "invoice_date": "04/22/2014",
+    "total_gross_worth": "$ 179.07",
+    "seller": "Miller-Williams\nUnit 1322 Box 8755\nDPO AE 56991\nTax Id: 968-74-9070\nIBAN: GB83GKHI28055893909527",
+    "client": "Stokes, Cain and Fox\nUSS Johnston\nFPO AE 28022\nTax Id: 906-74-1598"
+  },
+  "processing_time": 5.23,
+  "success": true,
+  "timestamp": "2025-10-27T00:23:41.529587"
+}

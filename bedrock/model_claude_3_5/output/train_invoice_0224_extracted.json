@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0224.png",
+  "ground_truth": {
+    "invoice_no": "15259432",
+    "invoice_date": "02/06/2016",
+    "total_gross_worth": "$ 82,49",
+    "seller": "Franklin, Buchanan and Reed 61217 Smith Mall Suite 690 Seanberg, DE 85994",
+    "client": "Ford, Myers and Walton 935 Sharon Junctions Suite 858 Rayville, AZ 10556"
+  },
+  "extracted": {
+    "invoice_no": "15259432",
+    "invoice_date": "02/06/2016",
+    "total_gross_worth": "$ 82.49",
+    "seller": "Franklin, Buchanan and Reed\n61217 Smith Mall Suite 690\nSeanberg, DE 85994",
+    "client": "Ford, Myers and Walton\n935 Sharon Junctions Suite 858\nRayville, AZ 10556"
+  },
+  "processing_time": 3.96,
+  "success": true,
+  "timestamp": "2025-10-27T00:20:47.286770"
+}

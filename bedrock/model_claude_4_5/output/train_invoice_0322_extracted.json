@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0322.png",
+  "ground_truth": {
+    "invoice_no": "46916101",
+    "invoice_date": "04/28/2013",
+    "total_gross_worth": "$2800,03",
+    "seller": "Ballard, Wang and Keller 564 James Rest Apt. 427 Kimberlybury, NV 50669",
+    "client": "Heath, Gonzalez and Henderson 691 Reynolds Gateway Northjaimeburgh, SD 26459"
+  },
+  "extracted": {
+    "invoice_no": "46916101",
+    "invoice_date": "04/28/2013",
+    "total_gross_worth": "$ 2 800,03",
+    "seller": "Ballard, Wang and Keller\n564 James Rest Apt. 427\nKimberlybury, NV 50669",
+    "client": "Heath, Gonzalez and Henderson\n691 Reynolds Gateway\nNorth Jaimeburgh, SD 26459"
+  },
+  "processing_time": 6.13,
+  "success": true,
+  "timestamp": "2025-10-26T22:59:35.050231"
+}

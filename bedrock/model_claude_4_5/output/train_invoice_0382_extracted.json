@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0382.png",
+  "ground_truth": {
+    "invoice_no": "65345089",
+    "invoice_date": "12/24/2020",
+    "total_gross_worth": "$1535,07",
+    "seller": "Roberts Group 058 Laura Squares East Saramouth, WA 49444",
+    "client": "958-90-2468"
+  },
+  "extracted": {
+    "invoice_no": "65345089",
+    "invoice_date": "12/24/2020",
+    "total_gross_worth": "$ 1 535,07",
+    "seller": "Roberts Group\n058 Laura Squares\nEast Saramouth, WA 49444",
+    "client": "Whitaker-Kelly\n736 Krystal Ways Suite 151\nNorth Louis, SC 84132"
+  },
+  "processing_time": 5.38,
+  "success": true,
+  "timestamp": "2025-10-26T23:05:36.585386"
+}

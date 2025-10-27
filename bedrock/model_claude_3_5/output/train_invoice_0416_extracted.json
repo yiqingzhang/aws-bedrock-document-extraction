@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0416.png",
+  "ground_truth": {
+    "invoice_no": "95076029",
+    "invoice_date": "11/20/2011",
+    "total_gross_worth": "$249,96",
+    "seller": "Wallace, Webb and Lucas Unit 0077 Box 3864 DPO AP 70449",
+    "client": "Smith-Cabrera 24941 Perry Shores Kevintown, WY 71069"
+  },
+  "extracted": {
+    "invoice_no": "95076029",
+    "invoice_date": "11/20/2011",
+    "total_gross_worth": "$ 249.96",
+    "seller": "Wallace, Webb and Lucas\nUnit 0077 Box 3864\nDPO AP 70449\nTax Id: 937-78-4543\nIBAN: GB66JBMG14825780092382",
+    "client": "Smith-Cabrera\n24941 Perry Shores\nKevintown, WY 71069\nTax Id: 918-91-8490"
+  },
+  "processing_time": 5.57,
+  "success": true,
+  "timestamp": "2025-10-27T00:35:52.292071"
+}

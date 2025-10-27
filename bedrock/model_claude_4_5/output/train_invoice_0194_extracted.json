@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0194.png",
+  "ground_truth": {
+    "invoice_no": "98442092",
+    "invoice_date": "06/10/2015",
+    "total_gross_worth": "$ 172,71",
+    "seller": "Hudson, Hinton and Phillips 445 Harrison Green Apt. 108 Lake Sherry, NJ 73662",
+    "client": "Castillo-Price 5398 Christopher Hill North Philip, CA 42378"
+  },
+  "extracted": {
+    "invoice_no": "98442092",
+    "invoice_date": "06/10/2015",
+    "total_gross_worth": "$ 172,71",
+    "seller": "Hudson, Hinton and Phillips\n445 Harrison Green Apt. 108\nLake Sherry, NJ 73662",
+    "client": "Castillo-Price\n5398 Christopher Hill\nNorth Philip, CA 42378"
+  },
+  "processing_time": 7.98,
+  "success": true,
+  "timestamp": "2025-10-26T22:46:53.679298"
+}

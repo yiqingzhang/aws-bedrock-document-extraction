@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0227.png",
+  "ground_truth": {
+    "invoice_no": "78873710",
+    "invoice_date": "12/14/2015",
+    "total_gross_worth": "$41306,81",
+    "seller": "Weber-Wagner 8833 Moore Unions South Shawnburgh, ID 35022",
+    "client": "Barry, Patterson and Greer 08677 Robertson Passage South Kirkborough, DE 67708"
+  },
+  "extracted": {
+    "invoice_no": "78873710",
+    "invoice_date": "12/14/2015",
+    "total_gross_worth": "$ 41,306.81",
+    "seller": "Weber-Wagner\n8833 Moore Unions\nSouth Shawnburgh, ID 35022",
+    "client": "Barry, Patterson and Greer\n08677 Robertson Passage\nSouth Kirkborough, DE 67708"
+  },
+  "processing_time": 4.29,
+  "success": true,
+  "timestamp": "2025-10-27T00:21:00.426444"
+}

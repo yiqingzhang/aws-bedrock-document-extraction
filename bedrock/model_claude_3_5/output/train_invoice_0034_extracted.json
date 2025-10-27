@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0034.png",
+  "ground_truth": {
+    "invoice_no": "93411242",
+    "invoice_date": "01/07/2017",
+    "total_gross_worth": "$7876,78",
+    "seller": "Harrison-Harris 9076 Maria Prairie Suite 382 Nicholsville, NC 06077",
+    "client": "Smith-Hill 65866 Armstrong Meadows Suite 009 East Heather, OK 70218"
+  },
+  "extracted": {
+    "invoice_no": "93411242",
+    "invoice_date": "01/07/2017",
+    "total_gross_worth": "$ 7,876.78",
+    "seller": "Harrison-Harris\n9076 Maria Prairie Suite 382\nNicholsville, NC 06077",
+    "client": "Smith-Hill\n65866 Armstrong Meadows Suite 009\nEast Heather, OK 70218"
+  },
+  "processing_time": 4.23,
+  "success": true,
+  "timestamp": "2025-10-27T00:06:04.678165"
+}

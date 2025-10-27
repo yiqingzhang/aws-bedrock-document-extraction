@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0204.png",
+  "ground_truth": {
+    "invoice_no": "92627663",
+    "invoice_date": "05/12/2018",
+    "total_gross_worth": "$23454,63",
+    "seller": "Solis Group 161 Michael Squares Fernandezmouth, OK 58557",
+    "client": "Nguyen, Ray and Allen 415 Kenneth Locks Suite 324 Northjoelhaven, HI 29120"
+  },
+  "extracted": {
+    "invoice_no": "92627663",
+    "invoice_date": "05/12/2018",
+    "total_gross_worth": "$ 23,454.63",
+    "seller": "Solis Group\n161 Michael Squares\nFernandezmouth, OK 58557",
+    "client": "Nguyen, Ray and Allen\n415 Kenneth Locks Suite 324\nNorth Joelhaven, HI 29120"
+  },
+  "processing_time": 4.62,
+  "success": true,
+  "timestamp": "2025-10-27T00:19:16.725217"
+}

@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0342.png",
+  "ground_truth": {
+    "invoice_no": "56908352",
+    "invoice_date": "01/11/2015",
+    "total_gross_worth": "$ 188,11",
+    "seller": "Lozano, Wang and Smith 8162 Dunn Radial Lauraland, ID 83827",
+    "client": "Evans, Curtis and Salinas 13078 Mora Garden Morseberg, WV 48959"
+  },
+  "extracted": {
+    "invoice_no": "56908352",
+    "invoice_date": "01/11/2015",
+    "total_gross_worth": "$ 188,11",
+    "seller": "Lozano, Wang and Smith\n8162 Dunn Radial\nLauraland, ID 83827",
+    "client": "Evans, Curtis and Salinas\n13078 Mora Garden\nMorseberg, WV 48959"
+  },
+  "processing_time": 5.51,
+  "success": true,
+  "timestamp": "2025-10-26T23:01:42.852643"
+}

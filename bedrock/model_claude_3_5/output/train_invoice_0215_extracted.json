@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0215.png",
+  "ground_truth": {
+    "invoice_no": "60907167",
+    "invoice_date": "09/02/2013",
+    "total_gross_worth": "$2015,04",
+    "seller": "Sanchez-Villanueva USCGC Wagner FPO AA 58422",
+    "client": "Freeman-Taylor 328 Emily Ford Suite 280 Cunninghamland, MO 52038"
+  },
+  "extracted": {
+    "invoice_no": "60907167",
+    "invoice_date": "09/02/2013",
+    "total_gross_worth": "$ 2,015.04",
+    "seller": "Sanchez-Villanueva\nUSCGC Wagner\nFPO AA 58422\nTax Id: 960-86-5676\nIBAN: GB76WMPQ60515492563026",
+    "client": "Freeman-Taylor\n328 Emily Ford Suite 280\nCunninghamland, MO 52038\nTax Id: 913-96-8458"
+  },
+  "processing_time": 5.58,
+  "success": true,
+  "timestamp": "2025-10-27T00:20:07.077259"
+}

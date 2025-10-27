@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0004.png",
+  "ground_truth": {
+    "invoice_no": "26020078",
+    "invoice_date": "11/19/2019",
+    "total_gross_worth": "$ 116,52",
+    "seller": "Johnson, Coleman and Mccarthy Unit 1928 Box 1473 DPO AA 74927",
+    "client": "Ochoa, Crane and Johnston 537 Johnson Rapid Suite 176 Morrowmouth, AK 77182"
+  },
+  "extracted": {
+    "invoice_no": "26020078",
+    "invoice_date": "11/19/2019",
+    "total_gross_worth": "$ 116.52",
+    "seller": "Johnson, Coleman and Mccarthy\nUnit 1928 Box 1473\nDPO AA 74927\nTax Id: 944-91-8763\nIBAN: GB93YUAY48784201603098",
+    "client": "Ochoa, Crane and Johnston\n537 Johnson Rapid Suite 176\nMorrowmouth, AK 77182\nTax Id: 942-86-9388"
+  },
+  "processing_time": 5.35,
+  "success": true,
+  "timestamp": "2025-10-27T00:03:45.071353"
+}

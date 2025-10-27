@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0300.png",
+  "ground_truth": {
+    "invoice_no": "47433391",
+    "invoice_date": "11/23/2018",
+    "total_gross_worth": "$ 428,83",
+    "seller": "Kramer, Harris and Martinez 53014 Michelle Dale South Rogerland, NC 21168",
+    "client": "Dawson LLC 1223 Carter Brook Suite 382 Jaclynshire, GA 60987"
+  },
+  "extracted": {
+    "invoice_no": "47433391",
+    "invoice_date": "11/23/2018",
+    "total_gross_worth": "$ 428.83",
+    "seller": "Kramer, Harris and Martinez\n53014 Michelle Dale\nSouth Rogerland, NC 21168",
+    "client": "Dawson LLC\n1223 Carter Brook Suite 382\nJaclynshire, GA 60987"
+  },
+  "processing_time": 5.21,
+  "success": true,
+  "timestamp": "2025-10-26T22:57:27.960278"
+}

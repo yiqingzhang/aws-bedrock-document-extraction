@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0208.png",
+  "ground_truth": {
+    "invoice_no": "56414170",
+    "invoice_date": "12/17/2016",
+    "total_gross_worth": "$ 295,55",
+    "seller": "Espinoza Group 81477 April Extensions Debraborough, RI 59743",
+    "client": "Rice-Ruiz 903 Rowe Parks Carrieburgh, AR 83973"
+  },
+  "extracted": {
+    "invoice_no": "56414170",
+    "invoice_date": "12/17/2016",
+    "total_gross_worth": "$ 295,55",
+    "seller": "Espinoza Group\n81477 April Extensions\nDebraborough, RI 59743",
+    "client": "Rice-Ruiz\n903 Rowe Parks\nCarrieburgh, AR 83973"
+  },
+  "processing_time": 4.19,
+  "success": true,
+  "timestamp": "2025-10-27T00:19:33.790668"
+}

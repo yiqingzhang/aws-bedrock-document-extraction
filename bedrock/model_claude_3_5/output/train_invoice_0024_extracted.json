@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0024.png",
+  "ground_truth": {
+    "invoice_no": "95707254",
+    "invoice_date": "07/20/2020",
+    "total_gross_worth": "$ 302,58",
+    "seller": "Cobb, Allen and Diaz 8378 Long Station Apt. 840 New Angelabury, CA 19896",
+    "client": "Carr, Odom and Jones 233 Justin Summit West Susan, KY 07746"
+  },
+  "extracted": {
+    "invoice_no": "95707254",
+    "invoice_date": "07/20/2020",
+    "total_gross_worth": "$ 302,58",
+    "seller": "Cobb, Allen and Diaz\n8378 Long Station Apt. 840\nNew Angelabury, CA 19896\nTax Id: 929-85-5933\nIBAN: GB07AGJU73318785668495",
+    "client": "Carr, Odom and Jones\n233 Justin Summit\nWest Susan, KY 07746\nTax Id: 923-94-2802"
+  },
+  "processing_time": 5.51,
+  "success": true,
+  "timestamp": "2025-10-27T00:05:15.062486"
+}

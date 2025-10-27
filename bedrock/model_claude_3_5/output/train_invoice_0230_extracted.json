@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0230.png",
+  "ground_truth": {
+    "invoice_no": "93799370",
+    "invoice_date": "06/28/2016",
+    "total_gross_worth": "$ 522,61",
+    "seller": "Park PLC Unit 5819 Box 6695 DPO AP 68432",
+    "client": "Perry-Delgado 190 Williams Views Apt. 790 West Shannon, OH 27805"
+  },
+  "extracted": {
+    "invoice_no": "93799370",
+    "invoice_date": "06/28/2016",
+    "total_gross_worth": "$ 522.61",
+    "seller": "Park PLC\nUnit 5819 Box 6695\nDPO AP 68432\nTax Id: 902-79-6806\nIBAN: GB85POPB00383766462814",
+    "client": "Perry-Delgado\n190 Williams Views Apt. 790\nWest Shannon, OH 27805\nTax Id: 972-91-7969"
+  },
+  "processing_time": 5.49,
+  "success": true,
+  "timestamp": "2025-10-27T00:21:15.887070"
+}

@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0383.png",
+  "ground_truth": {
+    "invoice_no": "44337721",
+    "invoice_date": "05/02/2017",
+    "total_gross_worth": "$ 406,23",
+    "seller": "",
+    "client": "Dorsey, Gomez and Chen 7086 Stevens Ramp Apt. 124 Bergville, MI 97033"
+  },
+  "extracted": {
+    "invoice_no": "44337721",
+    "invoice_date": "05/02/2017",
+    "total_gross_worth": "$ 406,23",
+    "seller": "Carlson Ltd\n6863 Richard Light Suite 692\nAllisonmouth, WV 45956",
+    "client": "Dorsey, Gomez and Chen\n7086 Stevens Ramp Apt. 124\nBergville, MI 97033"
+  },
+  "processing_time": 6.93,
+  "success": true,
+  "timestamp": "2025-10-26T23:05:43.516110"
+}

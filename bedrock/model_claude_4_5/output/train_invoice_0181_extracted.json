@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0181.png",
+  "ground_truth": {
+    "invoice_no": "66700610",
+    "invoice_date": "06/19/2013",
+    "total_gross_worth": "$1451,91",
+    "seller": "Collins-Cooley 4425 Ricky Flat Michaelview, MI 08322",
+    "client": "Grant PLC 833 Williams Island Suite 889 Stewartfort, KS 31161"
+  },
+  "extracted": {
+    "invoice_no": "66700610",
+    "invoice_date": "06/19/2013",
+    "total_gross_worth": "$ 1 451,91",
+    "seller": "Collins-Cooley\n4425 Ricky Flat\nMichaelview, MI 08322",
+    "client": "Grant PLC\n833 Williams Island Suite 889\nStewartfort, KS 31161"
+  },
+  "processing_time": 4.98,
+  "success": true,
+  "timestamp": "2025-10-26T22:45:35.449622"
+}

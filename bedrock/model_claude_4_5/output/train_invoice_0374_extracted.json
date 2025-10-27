@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0374.png",
+  "ground_truth": {
+    "invoice_no": "57696752",
+    "invoice_date": "10/03/2017",
+    "total_gross_worth": "$2235,20",
+    "seller": "Lopez-Smith 1019 Jamie Coves Suite 536 Garciaberg, AK23239",
+    "client": "Rodriguez, Grant and Green 36999 Cynthia Walk Suite 460 Greenchester, NC 24265"
+  },
+  "extracted": {
+    "invoice_no": "57696752",
+    "invoice_date": "10/03/2017",
+    "total_gross_worth": "$ 2 235,20",
+    "seller": "Lopez-Smith\n1019 Jamie Coves Suite 536\nGarciaberg, AK 23239",
+    "client": "Rodriguez, Grant and Green\n36999 Cynthia Walk Suite 460\nGreenchester, NC 24265"
+  },
+  "processing_time": 7.73,
+  "success": true,
+  "timestamp": "2025-10-26T23:04:49.692769"
+}

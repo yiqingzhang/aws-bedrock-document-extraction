@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/validation/invoice/invoice_0038.png",
+  "ground_truth": {
+    "invoice_no": "61669642",
+    "invoice_date": "11/12/2013",
+    "total_gross_worth": "$ 151,38",
+    "seller": "Carter Inc 7936 Smith Streets Mariahchester, PA 08114",
+    "client": "Torres, Sutton and Weeks 618 Perez Shoals Suite 978 Bradshawton, TN 51301"
+  },
+  "extracted": {
+    "invoice_no": "61669642",
+    "invoice_date": "11/12/2013",
+    "total_gross_worth": "$ 151,38",
+    "seller": "Carter Inc\n7936 Smith Streets\nMariahchester, PA 08114",
+    "client": "Torres, Sutton and Weeks\n618 Perez Shoals Suite 978\nBradshawton, TN 51301"
+  },
+  "processing_time": 5.61,
+  "success": true,
+  "timestamp": "2025-10-26T23:13:40.769676"
+}

@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0255.png",
+  "ground_truth": {
+    "invoice_no": "65051504",
+    "invoice_date": "07/15/2014",
+    "total_gross_worth": "$8448,88",
+    "seller": "Wu-Brock 1181 Thomas Village Apt. 548 Lake Jeremystad, DE 08494",
+    "client": "Rodriguez, Myers and Robinson 833 Thompson Flats North Brandymouth, TX 44204"
+  },
+  "extracted": {
+    "invoice_no": "65051504",
+    "invoice_date": "07/15/2014",
+    "total_gross_worth": "$ 8 448,88",
+    "seller": "Wu-Brock\n1181 Thomas Village Apt. 548\nLake Jeremystad, DE 08494",
+    "client": "Rodriguez, Myers and Robinson\n833 Thompson Flats\nNorth Brandymouth, TX 44204"
+  },
+  "processing_time": 5.52,
+  "success": true,
+  "timestamp": "2025-10-26T22:53:02.402101"
+}

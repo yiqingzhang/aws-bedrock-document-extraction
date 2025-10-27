@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0367.png",
+  "ground_truth": {
+    "invoice_no": "69556867",
+    "invoice_date": "02/14/2017",
+    "total_gross_worth": "$1190,54",
+    "seller": "Houston Group 9800 Austin Course Suite 698 Arthurville, NV 00887",
+    "client": "Harding Inc 35539 Sims Plaza Apt. 206 Cassandraburgh, CA57710"
+  },
+  "extracted": {
+    "invoice_no": "69556867",
+    "invoice_date": "02/14/2017",
+    "total_gross_worth": "$ 1,190.54",
+    "seller": "Houston Group\n9800 Austin Course Suite 698\nArthurville, NV 00887",
+    "client": "Harding Inc\n35539 Sims Plaza Apt. 206\nCassandraburgh, CA 57710"
+  },
+  "processing_time": 4.79,
+  "success": true,
+  "timestamp": "2025-10-27T00:31:55.519818"
+}

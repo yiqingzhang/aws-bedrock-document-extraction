@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0292.png",
+  "ground_truth": {
+    "invoice_no": "93559969",
+    "invoice_date": "11/14/2017",
+    "total_gross_worth": "$ 175,94",
+    "seller": "Taylor Group 42883 David Squares Suite 650 Martinezfort, GA 10037",
+    "client": "Ashley-Cook 14925 Gabriel Ridge Apt. 801 North Theresaport, MD 19569"
+  },
+  "extracted": {
+    "invoice_no": "93559969",
+    "invoice_date": "11/14/2017",
+    "total_gross_worth": "$ 175.94",
+    "seller": "Taylor Group\n42883 David Squares Suite 650\nMartinezfort, GA 10037",
+    "client": "Ashley-Cook\n14925 Gabriel Ridge Apt. 801\nNorth Theresaport, MD 19569"
+  },
+  "processing_time": 4.01,
+  "success": true,
+  "timestamp": "2025-10-27T00:26:06.711112"
+}

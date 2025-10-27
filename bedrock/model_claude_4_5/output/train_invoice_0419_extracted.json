@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0419.png",
+  "ground_truth": {
+    "invoice_no": "15902016",
+    "invoice_date": "11/07/2017",
+    "total_gross_worth": "$7397,59",
+    "seller": "Martin-Silva USCGC Gonzalez FPO AP 27004",
+    "client": "Spencer Ltd 70039 Leslie Locks Suite 218 Port Saraland, KY 84303"
+  },
+  "extracted": {
+    "invoice_no": "15902016",
+    "invoice_date": "11/07/2017",
+    "total_gross_worth": "$ 7 397,59",
+    "seller": "Martin-Silva\nUSCGC Gonzalez\nFPO AP 27004",
+    "client": "Spencer Ltd\n70039 Leslie Locks Suite 218\nPort Saraland, KY 84303"
+  },
+  "processing_time": 5.72,
+  "success": true,
+  "timestamp": "2025-10-26T23:09:15.525148"
+}

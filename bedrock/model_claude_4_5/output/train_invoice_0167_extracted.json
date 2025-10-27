@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0167.png",
+  "ground_truth": {
+    "invoice_no": "27892893",
+    "invoice_date": "01/16/2020",
+    "total_gross_worth": "$16691,02",
+    "seller": "Reeves-Campbel. 547 Linda Motorway Port Alexanderland, VT 83464",
+    "client": "Duncan and Sons 33652 Allen Drive Suite 359 New Jose, NC 55061"
+  },
+  "extracted": {
+    "invoice_no": "27892893",
+    "invoice_date": "01/16/2020",
+    "total_gross_worth": "$ 16 691,02",
+    "seller": "Reeves-Campbell\n547 Linda Motorway\nPort Alexanderland, VT 83464",
+    "client": "Duncan and Sons\n33652 Allen Drive Suite 359\nNew Jose, NC 55061"
+  },
+  "processing_time": 5.36,
+  "success": true,
+  "timestamp": "2025-10-26T22:44:15.062199"
+}

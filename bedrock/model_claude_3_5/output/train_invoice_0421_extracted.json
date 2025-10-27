@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0421.png",
+  "ground_truth": {
+    "invoice_no": "64291160",
+    "invoice_date": "02/17/2016",
+    "total_gross_worth": "$ 148,50",
+    "seller": "Evans, Bowman and Randolph 3817 Henderson Ranch Apt. 490 Jordantown, CA 83940",
+    "client": "Weiss-Thomas 04037 William Underpass North Angela, WI 46397"
+  },
+  "extracted": {
+    "invoice_no": "64291160",
+    "invoice_date": "02/17/2016",
+    "total_gross_worth": "$ 148,50",
+    "seller": "Evans, Bowman and Randolph\n3817 Henderson Ranch Apt. 490\nJordantown, CA 83940",
+    "client": "Weiss-Thomas\n04037 William Underpass\nNorth Angela, WI 46397"
+  },
+  "processing_time": 4.33,
+  "success": true,
+  "timestamp": "2025-10-27T00:36:16.049906"
+}

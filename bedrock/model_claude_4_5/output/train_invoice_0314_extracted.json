@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0314.png",
+  "ground_truth": {
+    "invoice_no": "15855229",
+    "invoice_date": "03/30/2014",
+    "total_gross_worth": "$5823,92",
+    "seller": "Hanson LLC 5055 Patrick Locks South Julieberg, AL 39292",
+    "client": "Hawkins-Lopez 61102 Perez Inlet Huntermouth, MO 17925"
+  },
+  "extracted": {
+    "invoice_no": "15855229",
+    "invoice_date": "03/30/2014",
+    "total_gross_worth": "$ 5 823,92",
+    "seller": "Hanson LLC\n5055 Patrick Locks\nSouth Julieberg, AL 39292",
+    "client": "Hawkins-Lopez\n61102 Perez Inlet\nHuntermouth, MO 17925"
+  },
+  "processing_time": 5.41,
+  "success": true,
+  "timestamp": "2025-10-26T22:58:48.463567"
+}

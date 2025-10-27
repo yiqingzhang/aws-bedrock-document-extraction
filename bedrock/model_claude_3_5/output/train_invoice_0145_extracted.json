@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0145.png",
+  "ground_truth": {
+    "invoice_no": "39760888",
+    "invoice_date": "07/20/2017",
+    "total_gross_worth": "$ 569,69",
+    "seller": "Willamson-Rogers 8214 Douglas Well Lauraland, DC 14785",
+    "client": "Yates and Sons 2569 Gloria Ridges Wallaceview, FL 68952"
+  },
+  "extracted": {
+    "invoice_no": "39760888",
+    "invoice_date": "07/20/2017",
+    "total_gross_worth": "$ 569,69",
+    "seller": "Williamson-Rogers\n8214 Douglas Well\nLauraland, DC 14785",
+    "client": "Yates and Sons\n2569 Gloria Ridges\nWallaceview, FL 68952"
+  },
+  "processing_time": 3.99,
+  "success": true,
+  "timestamp": "2025-10-27T00:14:34.477140"
+}

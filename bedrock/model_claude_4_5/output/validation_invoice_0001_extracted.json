@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/validation/invoice/invoice_0001.png",
+  "ground_truth": {
+    "invoice_no": "",
+    "invoice_date": "",
+    "total_gross_worth": "",
+    "seller": "",
+    "client": ""
+  },
+  "extracted": {
+    "invoice_no": "16220332",
+    "invoice_date": "05/15/2017",
+    "total_gross_worth": "$ 69 138,73",
+    "seller": "Lawson and Sons\n78147 Jackson Fords\nGilesland, MI 45057",
+    "client": "Mosley LLC\n913 Lawrence Mountains\nNew Andrew, KY 46723"
+  },
+  "processing_time": 5.68,
+  "success": true,
+  "timestamp": "2025-10-26T23:10:00.363333"
+}

@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0050.png",
+  "ground_truth": {
+    "invoice_no": "28610769",
+    "invoice_date": "06/19/2017",
+    "total_gross_worth": "$2172,39",
+    "seller": "Martin Inc 40533 Joseph Summit Davistown, ME 15851",
+    "client": "Eaton Ltd 84559 Zavala Forges Sullivanbury, TN 83437"
+  },
+  "extracted": {
+    "invoice_no": "28610769",
+    "invoice_date": "06/19/2017",
+    "total_gross_worth": "$ 2 172,39",
+    "seller": "Martin Inc\n40533 Joseph Summit\nDavistown, ME 15851",
+    "client": "Eaton Ltd\n84559 Zavala Forges\nSullivanbury, TN 83437"
+  },
+  "processing_time": 3.92,
+  "success": true,
+  "timestamp": "2025-10-27T00:07:16.206907"
+}

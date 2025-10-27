@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0160.png",
+  "ground_truth": {
+    "invoice_no": "38248291",
+    "invoice_date": "06/18/2012",
+    "total_gross_worth": "$ 305,57",
+    "seller": "Campbell and Sons USNS Smith FPO AP 47156",
+    "client": "Weber-Torres 197 Wolf Crest Apt. 619 Adamberg, PA 51821"
+  },
+  "extracted": {
+    "invoice_no": "38248291",
+    "invoice_date": "06/18/2012",
+    "total_gross_worth": "$ 305.57",
+    "seller": "Campbell and Sons\nUSNS Smith\nFPO AP 47156\nTax Id: 927-75-0773\nIBAN: GB38UEPR54275047173710",
+    "client": "Weber-Torres\n197 Wolf Crest Apt. 619\nAdamberg, PA 51821\nTax Id: 979-73-1065"
+  },
+  "processing_time": 5.95,
+  "success": true,
+  "timestamp": "2025-10-27T00:15:50.122494"
+}

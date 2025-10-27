@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0276.png",
+  "ground_truth": {
+    "invoice_no": "33784215",
+    "invoice_date": "03/24/2018",
+    "total_gross_worth": "$62,46",
+    "seller": "Hart-Johnson 244 Jennifer Fort Millsstad, TN 37715",
+    "client": "Martin and Sons 511 Moore Streets Suite 141 North Matthewland, MN 20879"
+  },
+  "extracted": {
+    "invoice_no": "33784215",
+    "invoice_date": "03/24/2018",
+    "total_gross_worth": "$ 62,46",
+    "seller": "Hart-Johnson\n244 Jennifer Fort\nMillsstad, TN 37715",
+    "client": "Martin and Sons\n511 Moore Streets Suite 141\nNorth Matthewland, MN 20879"
+  },
+  "processing_time": 4.49,
+  "success": true,
+  "timestamp": "2025-10-27T00:24:52.475567"
+}

@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/validation/invoice/invoice_0004.png",
+  "ground_truth": {
+    "invoice_no": "76588527",
+    "invoice_date": "11/21/2018",
+    "total_gross_worth": "$ 747,96",
+    "seller": "Oliver and Sons 49905 Anthony Loaf North Kristi, WA 43365",
+    "client": "Kirby-Charles 4159 Brown Valley Apt. 572 Brownstad, MN 48794"
+  },
+  "extracted": {
+    "invoice_no": "76588527",
+    "invoice_date": "11/21/2018",
+    "total_gross_worth": "$ 747,96",
+    "seller": "Oliver and Sons\n49905 Anthony Loaf\nNorth Kristi, WA 43365",
+    "client": "Kirby-Charles\n4159 Brown Valley Apt. 572\nBrownstad, MN 48794"
+  },
+  "processing_time": 4.5,
+  "success": true,
+  "timestamp": "2025-10-27T00:36:53.589047"
+}

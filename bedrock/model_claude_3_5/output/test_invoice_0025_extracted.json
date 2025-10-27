@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/test/invoice/invoice_0025.png",
+  "ground_truth": {
+    "invoice_no": "12681565",
+    "invoice_date": "09/07/2015",
+    "total_gross_worth": "$4391,10",
+    "seller": "Clay-Koch 2467 John Knolls Apt. 099 Markside, MT 79068",
+    "client": "Thompson-Baker USNV Kennedy FPO AA 01185"
+  },
+  "extracted": {
+    "invoice_no": "12681565",
+    "invoice_date": "09/07/2015",
+    "total_gross_worth": "$ 4,391.10",
+    "seller": "Clay-Koch\n2467 John Knolls Apt. 099\nMarkside, MT 79068\nTax Id: 915-72-3800\nIBAN: GB20IFBT89821062114124",
+    "client": "Thompson-Baker\nUSNV Kennedy\nFPO AA 01185\nTax Id: 971-96-6933"
+  },
+  "processing_time": 5.59,
+  "success": true,
+  "timestamp": "2025-10-27T00:03:22.663605"
+}

@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0351.png",
+  "ground_truth": {
+    "invoice_no": "",
+    "invoice_date": "",
+    "total_gross_worth": "",
+    "seller": "",
+    "client": ""
+  },
+  "extracted": {
+    "invoice_no": "37107781",
+    "invoice_date": "07/29/2012",
+    "total_gross_worth": "$ 2 804,92",
+    "seller": "Williamson-Hernandez\n68869 Jones Port Suite 113\nParksstad, NM 27564",
+    "client": "Lee-Burnett\n20130 Jessica Track Apt. 223\nWeberhaven, CO 86898"
+  },
+  "processing_time": 3.9,
+  "success": true,
+  "timestamp": "2025-10-27T00:30:43.711871"
+}

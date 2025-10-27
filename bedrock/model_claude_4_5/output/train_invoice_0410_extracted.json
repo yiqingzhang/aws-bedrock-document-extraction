@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0410.png",
+  "ground_truth": {
+    "invoice_no": "19570656",
+    "invoice_date": "04/05/2016",
+    "total_gross_worth": "$ 65,98",
+    "seller": "Nixon-Delacruz 3434 Erik Square Apt. 923 Heathertown, WA 04052",
+    "client": "Schneider-Garrison USCGC Delgado FPO AP 90429"
+  },
+  "extracted": {
+    "invoice_no": "19570656",
+    "invoice_date": "04/05/2016",
+    "total_gross_worth": "$ 65,98",
+    "seller": "Nixon-Delacruz\n3434 Erik Square Apt. 923\nHeathertown, WA 04052",
+    "client": "Schneider-Garrison\nUSCGC Delgado\nFPO AP 90429"
+  },
+  "processing_time": 5.31,
+  "success": true,
+  "timestamp": "2025-10-26T23:08:22.820673"
+}

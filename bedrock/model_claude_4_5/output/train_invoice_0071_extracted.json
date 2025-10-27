@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0071.png",
+  "ground_truth": {
+    "invoice_no": "77658002",
+    "invoice_date": "01/21/2014",
+    "total_gross_worth": "$ 323,14",
+    "seller": "Mckenzie, Clay and Campos 76099 Bryan View Suite 318 Gregoryberg, NM 46284",
+    "client": "Espinoza LLC 7698 Davis Freeway Rachelport, CO 79421"
+  },
+  "extracted": {
+    "invoice_no": "77658002",
+    "invoice_date": "01/21/2014",
+    "total_gross_worth": "$ 323,14",
+    "seller": "Mckenzie, Clay and Campos\n76099 Bryan View Suite 318\nGregoryberg, NM 46284",
+    "client": "Espinoza LLC\n7698 Davis Freeway\nRachelport, CO 79421"
+  },
+  "processing_time": 5.89,
+  "success": true,
+  "timestamp": "2025-10-26T22:35:05.415283"
+}

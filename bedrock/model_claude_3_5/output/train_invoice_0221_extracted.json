@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0221.png",
+  "ground_truth": {
+    "invoice_no": "20385371",
+    "invoice_date": "11/08/2014",
+    "total_gross_worth": "$1627,96",
+    "seller": "Hess and Sons 36012 Ashley Crossing Apt. 802 Lake Lisafort, AZ 26815",
+    "client": "Smith-Hobbs 88865 Melissa Summit Butlermouth, MD 94016"
+  },
+  "extracted": {
+    "invoice_no": "20385371",
+    "invoice_date": "11/08/2014",
+    "total_gross_worth": "$ 1627,96",
+    "seller": "Hess and Sons\n36012 Ashley Crossing Apt. 802\nLake Lisafort, AZ 26815",
+    "client": "Smith-Hobbs\n88865 Melissa Summit\nButlermouth, MD 94016"
+  },
+  "processing_time": 4.49,
+  "success": true,
+  "timestamp": "2025-10-27T00:20:33.798985"
+}

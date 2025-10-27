@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/validation/invoice/invoice_0035.png",
+  "ground_truth": {
+    "invoice_no": "75299595",
+    "invoice_date": "06/03/2011",
+    "total_gross_worth": "$ 272,65",
+    "seller": "Cox, Bell and Rodriguez 2621 Osborn Walk Suite 041 East Sheila, NJ 06414",
+    "client": "Jackson Group 88641 Patrick Ports Suite 993 Erinfort, TX 62441"
+  },
+  "extracted": {
+    "invoice_no": "75299595",
+    "invoice_date": "06/03/2011",
+    "total_gross_worth": "$ 272,65",
+    "seller": "Cox, Bell and Rodriguez\n2621 Osborn Walk Suite 041\nEast Sheila, NJ 06414",
+    "client": "Jackson Group\n88641 Patrick Ports Suite 993\nErinfort, TX 62441"
+  },
+  "processing_time": 5.03,
+  "success": true,
+  "timestamp": "2025-10-26T23:13:24.604328"
+}

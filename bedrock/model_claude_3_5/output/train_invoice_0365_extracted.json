@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0365.png",
+  "ground_truth": {
+    "invoice_no": "98852451",
+    "invoice_date": "09/02/2019",
+    "total_gross_worth": "$4151,23",
+    "seller": "Peterson LLC USS Daniels FPO AP 91825",
+    "client": "Patterson, Pierce and Fuentes 79040 Anderson Fort Michaelport, SD 42110"
+  },
+  "extracted": {
+    "invoice_no": "98852451",
+    "invoice_date": "09/02/2019",
+    "total_gross_worth": "$ 4 151,23",
+    "seller": "Peterson LLC\nUSS Daniels\nFPO AP 91825\nTax Id: 979-97-7990\nIBAN: GB94KFMA16445522709946",
+    "client": "Patterson, Pierce and Fuentes\n79040 Anderson Fort\nMichaelport, SD 42110\nTax Id: 932-87-9276"
+  },
+  "processing_time": 5.42,
+  "success": true,
+  "timestamp": "2025-10-27T00:31:46.905730"
+}

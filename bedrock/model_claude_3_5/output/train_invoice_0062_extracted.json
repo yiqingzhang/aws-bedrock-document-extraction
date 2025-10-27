@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0062.png",
+  "ground_truth": {
+    "invoice_no": "64218159",
+    "invoice_date": "11/09/2013",
+    "total_gross_worth": "$64,67",
+    "seller": "Price-Bishop 216 Christopher Inlet Leslieport, MS 04768",
+    "client": "Mata, Pena and Avery 7006 Jill Tunnel Suite 463 North Sarah, WV45252"
+  },
+  "extracted": {
+    "invoice_no": "64218159",
+    "invoice_date": "11/09/2013",
+    "total_gross_worth": "$ 64.67",
+    "seller": "Price-Bishop\n216 Christopher Inlet\nLeslieport, MS 04768\nTax Id: 951-85-6757\nIBAN: GB84IGSP08278890356055",
+    "client": "Mata, Pena and Avery\n7006 Jill Tunnel Suite 463\nNorth Sarah, WV 45252\nTax Id: 980-74-4827"
+  },
+  "processing_time": 5.33,
+  "success": true,
+  "timestamp": "2025-10-27T00:08:10.344597"
+}

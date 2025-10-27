@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0164.png",
+  "ground_truth": {
+    "invoice_no": "23706524",
+    "invoice_date": "12/15/2013",
+    "total_gross_worth": "$ 146,27",
+    "seller": "Carter, Boyer and Ware 753 Brown Drive Suite 298 Lake Holly, CT 91196",
+    "client": "Walker LLC 44433 Anderson Squares New Paulaborough, TX 39203"
+  },
+  "extracted": {
+    "invoice_no": "23706524",
+    "invoice_date": "12/15/2013",
+    "total_gross_worth": "$ 146,27",
+    "seller": "Carter, Boyer and Ware\n753 Brown Drive Suite 298\nLake Holly, CT 91196",
+    "client": "Walker LLC\n44433 Anderson Squares\nNew Paulaborough, TX 39203"
+  },
+  "processing_time": 5.11,
+  "success": true,
+  "timestamp": "2025-10-26T22:43:57.601227"
+}

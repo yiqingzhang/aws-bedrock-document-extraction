@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0095.png",
+  "ground_truth": {
+    "invoice_no": "45290929",
+    "invoice_date": "05/19/2014",
+    "total_gross_worth": "$ 71,39",
+    "seller": "Garcia, Smith and Nelson USCGC Mcguire FPO AP49035",
+    "client": "Garrison Inc 620 Allen Ports Jamestown, NM 45303"
+  },
+  "extracted": {
+    "invoice_no": "45290929",
+    "invoice_date": "05/19/2014",
+    "total_gross_worth": "$ 71,39",
+    "seller": "Garcia, Smith and Nelson\nUSCGC Mcguire\nFPO AP 49035",
+    "client": "Garrison Inc\n620 Allen Ports\nJamestown, NM 45303"
+  },
+  "processing_time": 4.91,
+  "success": true,
+  "timestamp": "2025-10-26T22:37:25.147784"
+}

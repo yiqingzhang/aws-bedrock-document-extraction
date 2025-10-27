@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0087.png",
+  "ground_truth": {
+    "invoice_no": "83347787",
+    "invoice_date": "06/05/2013",
+    "total_gross_worth": "$ 557,85",
+    "seller": "Williams, Coleman and Parrish 716 Johnson Mountain Suite 119 South Lisa, CT 42270",
+    "client": "Lyons-Manning 364 Melissa Brooks Veronicaland, IL 74914"
+  },
+  "extracted": {
+    "invoice_no": "83347787",
+    "invoice_date": "06/05/2013",
+    "total_gross_worth": "$ 557.85",
+    "seller": "Williams, Coleman and Parrish\n716 Johnson Mountain Suite 119\nSouth Lisa, CT 42270\nTax Id: 953-87-3893\nIBAN: GB39BPFW56068121674289",
+    "client": "Lyons-Manning\n364 Melissa Brooks\nVeronicaland, IL 74914\nTax Id: 952-91-0003"
+  },
+  "processing_time": 6.11,
+  "success": true,
+  "timestamp": "2025-10-27T00:10:08.389723"
+}

@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0391.png",
+  "ground_truth": {
+    "invoice_no": "93128666",
+    "invoice_date": "06/17/2020",
+    "total_gross_worth": "$ 64,32",
+    "seller": "Boyd-Freeman 6187 Nicholas Mall Suite 018 Port David, MO 66494",
+    "client": "Cardenas-Young 248 Rhonda Courts Suite 986 Pattersonmouth, MI 18168"
+  },
+  "extracted": {
+    "invoice_no": "93128666",
+    "invoice_date": "06/17/2020",
+    "total_gross_worth": "$ 64.32",
+    "seller": "Boyd-Freeman\n6187 Nicholas Mall Suite 018\nPort David, MO 66494",
+    "client": "Cardenas-Young\n248 Rhonda Courts Suite 986\nPattersonmouth, MI 18168"
+  },
+  "processing_time": 3.78,
+  "success": true,
+  "timestamp": "2025-10-27T00:33:49.404495"
+}

@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/test/invoice/invoice_0011.png",
+  "ground_truth": {
+    "invoice_no": "58478169",
+    "invoice_date": "07/04/2016",
+    "total_gross_worth": "$12 261,98",
+    "seller": "Conley Ltd 262 Jeffrey Underpass Jamesview, WA 14945",
+    "client": "Wells-Avery 7065 Alejandro Forks Lake Jeffrey, ME 59849"
+  },
+  "extracted": {
+    "invoice_no": "58478169",
+    "invoice_date": "07/04/2016",
+    "total_gross_worth": "$ 12 261,98",
+    "seller": "Conley Ltd\n262 Jeffrey Underpass\nJamesview, WA 14945",
+    "client": "Wells-Avery\n7065 Alejandro Forks\nLake Jeffrey, ME 59849"
+  },
+  "processing_time": 5.61,
+  "success": true,
+  "timestamp": "2025-10-26T22:26:40.282144"
+}

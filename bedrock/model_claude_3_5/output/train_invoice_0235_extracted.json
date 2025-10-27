@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0235.png",
+  "ground_truth": {
+    "invoice_no": "88072177",
+    "invoice_date": "02/08/2019",
+    "total_gross_worth": "$ 194,56",
+    "seller": "White Group 703 Bean Way Suite 889 Cameronport, SD 94482",
+    "client": "Cruz-Clark 248 Marvin Tunnel West Sandra, WV 76185"
+  },
+  "extracted": {
+    "invoice_no": "88072177",
+    "invoice_date": "02/08/2019",
+    "total_gross_worth": "$ 194.56",
+    "seller": "White Group\n703 Bean Way Suite 889\nCameronport, SD 94482",
+    "client": "Cruz-Clark\n248 Marvin Tunnel\nWest Sandra, WV 76185"
+  },
+  "processing_time": 3.81,
+  "success": true,
+  "timestamp": "2025-10-27T00:21:38.180704"
+}

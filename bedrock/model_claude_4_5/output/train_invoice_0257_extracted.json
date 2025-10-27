@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0257.png",
+  "ground_truth": {
+    "invoice_no": "77545252",
+    "invoice_date": "04/07/2017",
+    "total_gross_worth": "$ 330,00",
+    "seller": "Flores-Lee 70947 Hill Avenue Port Steventown, NC 98912",
+    "client": "Walton and Sons USS Taylor FPO AA 53007"
+  },
+  "extracted": {
+    "invoice_no": "77545252",
+    "invoice_date": "04/07/2017",
+    "total_gross_worth": "$ 330,00",
+    "seller": "Flores-Lee\n70947 Hill Avenue\nPort Steventown, NC 98912",
+    "client": "Walton and Sons\nUSS Taylor\nFPO AA 53007"
+  },
+  "processing_time": 5.32,
+  "success": true,
+  "timestamp": "2025-10-26T22:53:13.394365"
+}

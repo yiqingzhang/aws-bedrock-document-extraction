@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0395.png",
+  "ground_truth": {
+    "invoice_no": "29378439",
+    "invoice_date": "09/16/2011",
+    "total_gross_worth": "$ 391,12",
+    "seller": "Andrade-Bennett 54803 Reginald Run Apt. 776 Garciaville, MI 49875",
+    "client": "Robinson, Brown and Oliver 47770 Osborne Roads Apt. 099 Gallegosfurt, IN 80790"
+  },
+  "extracted": {
+    "invoice_no": "29378439",
+    "invoice_date": "09/16/2011",
+    "total_gross_worth": "$ 391,12",
+    "seller": "Andrade-Bennett\n54803 Reginald Run Apt. 776\nGarciaville, MI 49875",
+    "client": "Robinson, Brown and Oliver\n47770 Osborne Roads Apt. 099\nGallegosfurt, IN 80790"
+  },
+  "processing_time": 6.54,
+  "success": true,
+  "timestamp": "2025-10-26T23:06:53.425580"
+}

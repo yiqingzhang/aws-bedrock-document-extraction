@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0163.png",
+  "ground_truth": {
+    "invoice_no": "75106829",
+    "invoice_date": "09/03/2011",
+    "total_gross_worth": "$ 354,15",
+    "seller": "Young, Gonzalez and Russell 95753 Sims Pike Apt. 538 Carloschester, DC 24903",
+    "client": "Adams, Garza and Lynch 21585 Allison Locks Perezchester, RI 36940"
+  },
+  "extracted": {
+    "invoice_no": "75106829",
+    "invoice_date": "09/03/2011",
+    "total_gross_worth": "$ 354,15",
+    "seller": "Young, Gonzalez and Russell\n95753 Sims Pike Apt. 53B\nCarloschester, DC 24903",
+    "client": "Adams, Garza and Lynch\n21585 Allison Locks\nPerezchester, RI 36940"
+  },
+  "processing_time": 5.77,
+  "success": true,
+  "timestamp": "2025-10-26T22:43:52.471060"
+}

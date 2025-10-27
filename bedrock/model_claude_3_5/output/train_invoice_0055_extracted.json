@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0055.png",
+  "ground_truth": {
+    "invoice_no": "66537515",
+    "invoice_date": "11/25/2018",
+    "total_gross_worth": "$1658,25",
+    "seller": "Lucas-Bright 404 Adrian Ranch South Victorfurt, CO 37971",
+    "client": "Morris-Trujillo 75345 Alexis Radial Suite 968 Jeanville, CO 37508"
+  },
+  "extracted": {
+    "invoice_no": "66537515",
+    "invoice_date": "11/25/2018",
+    "total_gross_worth": "$ 1,658.25",
+    "seller": "Lucas-Bright\n404 Adrian Ranch\nSouth Victorfurt, CO 37971",
+    "client": "Morris-Trujillo\n75345 Alexis Radial Suite 968\nJeanville, CO 37508"
+  },
+  "processing_time": 4.17,
+  "success": true,
+  "timestamp": "2025-10-27T00:07:38.516723"
+}

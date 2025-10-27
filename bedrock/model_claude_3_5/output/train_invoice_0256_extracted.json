@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0256.png",
+  "ground_truth": {
+    "invoice_no": "59506052",
+    "invoice_date": "12/24/2018",
+    "total_gross_worth": "$5873,90",
+    "seller": "Chang-Cruz Unit 8647 Box 4536 DPO AP 76863",
+    "client": "Christian-Gardner 400 Mitchell Meadow Suite 160 Port Cassandraborough, CO59008"
+  },
+  "extracted": {
+    "invoice_no": "59506052",
+    "invoice_date": "12/24/2018",
+    "total_gross_worth": "$ 5,873.90",
+    "seller": "Chang-Cruz\nUnit 8647 Box 4536\nDPO AP 76863\nTax Id: 956-81-7276\nIBAN: GB73TJHX01221229411854",
+    "client": "Christian-Gardner\n400 Mitchell Meadow Suite 160\nPort Cassandraborough, CO 59008\nTax Id: 987-99-2947"
+  },
+  "processing_time": 5.69,
+  "success": true,
+  "timestamp": "2025-10-27T00:23:16.780641"
+}

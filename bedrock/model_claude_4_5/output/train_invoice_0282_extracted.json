@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0282.png",
+  "ground_truth": {
+    "invoice_no": "65673716",
+    "invoice_date": "12/24/2017",
+    "total_gross_worth": "$8727,17",
+    "seller": "Kemp and Sons 93150 Wolf Expressway Apt. 415 South Victorbury, NJ 09179",
+    "client": "Shaffer-Craig 5518 Cindy Ville Apt. 118 Elizabethmouth, MA 80380"
+  },
+  "extracted": {
+    "invoice_no": "65673716",
+    "invoice_date": "12/24/2017",
+    "total_gross_worth": "$ 8 727,17",
+    "seller": "Kemp and Sons\n93150 Wolf Expressway Apt. 415\nSouth Victorbury, NJ 09179",
+    "client": "Shaffer-Craig\n5518 Cindy Ville Apt. 118\nElizabethmouth, MA 80380"
+  },
+  "processing_time": 8.16,
+  "success": true,
+  "timestamp": "2025-10-26T22:55:37.931978"
+}

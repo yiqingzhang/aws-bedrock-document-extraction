@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0246.png",
+  "ground_truth": {
+    "invoice_no": "92242080",
+    "invoice_date": "02/18/2014",
+    "total_gross_worth": "$ 133,23",
+    "seller": "Hale LLC 3484 Mcclure Hollow Apt. 002 Toddchester, TN 24930",
+    "client": "Lindsey Ltd 032 Vanessa Cove Apt. 180 Pacehaven, RI 78759"
+  },
+  "extracted": {
+    "invoice_no": "92242080",
+    "invoice_date": "02/18/2014",
+    "total_gross_worth": "$ 133,23",
+    "seller": "Hale LLC\n3484 Mcclure Hollow Apt. 002\nToddchester, TN 24930",
+    "client": "Lindsey Ltd\n032 Vanessa Cove Apt. 180\nPacehaven, RI 78759"
+  },
+  "processing_time": 4.4,
+  "success": true,
+  "timestamp": "2025-10-27T00:22:31.470824"
+}

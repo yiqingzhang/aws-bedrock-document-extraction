@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0278.png",
+  "ground_truth": {
+    "invoice_no": "79426901",
+    "invoice_date": "02/09/2015",
+    "total_gross_worth": "$8134,09",
+    "seller": "Morrison, Hernandez and Hayes 6606 Dunn Alley Lake Sarah, ID 19002",
+    "client": "Perez PLC PSC 0469, Box 8452 APO AA 24755"
+  },
+  "extracted": {
+    "invoice_no": "79426901",
+    "invoice_date": "02/09/2015",
+    "total_gross_worth": "$ 8,134.09",
+    "seller": "Morrison, Hernandez and Hayes\n6606 Dunn Alley\nLake Sarah, ID 19002\nTax Id: 948-75-5821\nIBAN: GB30TPHC72501170235860",
+    "client": "Perez PLC\nPSC 0469, Box 8452\nAPO AA 24755\nTax Id: 974-73-5480"
+  },
+  "processing_time": 5.81,
+  "success": true,
+  "timestamp": "2025-10-27T00:25:02.505596"
+}

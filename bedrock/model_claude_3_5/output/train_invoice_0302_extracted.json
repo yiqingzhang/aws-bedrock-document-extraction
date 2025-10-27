@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0302.png",
+  "ground_truth": {
+    "invoice_no": "98605220",
+    "invoice_date": "03/17/2016",
+    "total_gross_worth": "$ 166,91",
+    "seller": "Hernandez, Green and Lloyd 92340 Gonzalez Greens West Patrick, CO 12332",
+    "client": "Matthews-Roman 0773 Claudia Mountain Apt. 279 Chenstad, CO 51180"
+  },
+  "extracted": {
+    "invoice_no": "98605220",
+    "invoice_date": "03/17/2016",
+    "total_gross_worth": "$ 166.91",
+    "seller": "Hernandez, Green and Lloyd\n92340 Gonzalez Greens\nWest Patrick, CO 12332",
+    "client": "Matthews-Roman\n0773 Claudia Mountain Apt. 279\nChenstad, CO 51180"
+  },
+  "processing_time": 4.49,
+  "success": true,
+  "timestamp": "2025-10-27T00:26:51.565449"
+}

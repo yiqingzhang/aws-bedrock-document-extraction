@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0166.png",
+  "ground_truth": {
+    "invoice_no": "43846862",
+    "invoice_date": "01/10/2017",
+    "total_gross_worth": "$5296,43",
+    "seller": "Phillips PLC USCGC Harrington FPO AE 01096",
+    "client": "Elliott, Moreno and Garcia 085 Schmitt Loaf Apt. 207 Kimberlychester, DE 81788"
+  },
+  "extracted": {
+    "invoice_no": "43846862",
+    "invoice_date": "01/10/2017",
+    "total_gross_worth": "$ 5,296.43",
+    "seller": "Phillips PLC\nUSCGC Harrington\nFPO AE 01096\nTax Id: 950-85-9169\nIBAN: GB32TDGW94197567592729",
+    "client": "Elliott, Moreno and Garcia\n085 Schmitt Loaf Apt. 207\nKimberlychester, DE 81788\nTax Id: 941-78-0381"
+  },
+  "processing_time": 5.97,
+  "success": true,
+  "timestamp": "2025-10-27T00:16:19.287930"
+}

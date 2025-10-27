@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/validation/invoice/invoice_0037.png",
+  "ground_truth": {
+    "invoice_no": "77833987",
+    "invoice_date": "05/20/2013",
+    "total_gross_worth": "$ 129,53",
+    "seller": "Freeman and Sons 67728 Hebert Parkway Howeburgh, OH 93802",
+    "client": "Houston Group 195 Deanna Rue Robertshire, WY 74880"
+  },
+  "extracted": {
+    "invoice_no": "77833987",
+    "invoice_date": "05/20/2013",
+    "total_gross_worth": "$ 129.53",
+    "seller": "Freeman and Sons\n67728 Hebert Parkway\nHoweburgh, OH 93802",
+    "client": "Houston Group\n195 Deanna Rue\nRobertshire, WY 74880"
+  },
+  "processing_time": 4.18,
+  "success": true,
+  "timestamp": "2025-10-27T00:39:32.395990"
+}

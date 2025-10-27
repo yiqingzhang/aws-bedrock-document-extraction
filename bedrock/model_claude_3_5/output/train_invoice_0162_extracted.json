@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0162.png",
+  "ground_truth": {
+    "invoice_no": "34287467",
+    "invoice_date": "06/21/2017",
+    "total_gross_worth": "$ 223,01",
+    "seller": "Rowe, Payne and Stewart 4935 Hughes Dale Cordovafort, MS 61728",
+    "client": "Daniel LLC 2281 Nguyen Estate Suite 364 Morganside, PA 47744"
+  },
+  "extracted": {
+    "invoice_no": "34287467",
+    "invoice_date": "06/21/2017",
+    "total_gross_worth": "$ 223,01",
+    "seller": "Rowe, Payne and Stewart\n4935 Hughes Dale\nCordovafort, MS 61728",
+    "client": "Daniel LLC\n2281 Nguyen Estate Suite 364\nMorganside, PA 47744"
+  },
+  "processing_time": 4.32,
+  "success": true,
+  "timestamp": "2025-10-27T00:15:59.031070"
+}

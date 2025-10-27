@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0308.png",
+  "ground_truth": {
+    "invoice_no": "64678621",
+    "invoice_date": "09/06/2014",
+    "total_gross_worth": "$ 130,84",
+    "seller": "Sanchez Inc 6392 Adrian Parkway Murphyborough, OK 01882",
+    "client": "Becker Group 40009 Johnson View Apt. 247 East Lisachester, SC 51621"
+  },
+  "extracted": {
+    "invoice_no": "64678621",
+    "invoice_date": "09/06/2014",
+    "total_gross_worth": "$ 130,84",
+    "seller": "Sanchez Inc\n6392 Adrian Parkway\nMurphyborough, OK 01882",
+    "client": "Becker Group\n40009 Johnson View Apt. 247\nEast Lisachester, SC 51621"
+  },
+  "processing_time": 5.71,
+  "success": true,
+  "timestamp": "2025-10-27T00:27:18.695505"
+}

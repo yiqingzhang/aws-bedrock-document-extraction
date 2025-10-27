@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0384.png",
+  "ground_truth": {
+    "invoice_no": "69167020",
+    "invoice_date": "10/03/2020",
+    "total_gross_worth": "$1151,79",
+    "seller": "Green, Phillips and Washington 08050 Burns Unions Apt. 703 West Mark, ID 06799",
+    "client": "Gibson PLC 3324 Sheri Unions Suite 038 Autumnfurt, DE 97496"
+  },
+  "extracted": {
+    "invoice_no": "69167020",
+    "invoice_date": "10/03/2020",
+    "total_gross_worth": "$ 1 151,79",
+    "seller": "Green, Phillips and Washington\n08050 Burns Unions Apt. 703\nWest Mark, ID 06799",
+    "client": "Gibson PLC\n3324 Sheri Unions Suite 038\nAutumnfurt, DE 97496"
+  },
+  "processing_time": 4.4,
+  "success": true,
+  "timestamp": "2025-10-27T00:33:15.996064"
+}

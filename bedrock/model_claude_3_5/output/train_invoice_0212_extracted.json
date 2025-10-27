@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0212.png",
+  "ground_truth": {
+    "invoice_no": "67113656",
+    "invoice_date": "09/07/2015",
+    "total_gross_worth": "$4583,61",
+    "seller": "Henson-Cross 447 Mary Stream Suite 379 North Morgan, NH 41083",
+    "client": "Murray, Mckinney and Hayes 50944 Klein Glens Port Angela, RI 09065"
+  },
+  "extracted": {
+    "invoice_no": "67113656",
+    "invoice_date": "09/07/2015",
+    "total_gross_worth": "$ 4583,61",
+    "seller": "Henson-Cross\n447 Mary Stream Suite 379\nNorth Morgan, NH 41083",
+    "client": "Murray, Mckinney and Hayes\n50944 Klein Glens\nPort Angela, RI 09065"
+  },
+  "processing_time": 4.26,
+  "success": true,
+  "timestamp": "2025-10-27T00:19:51.241755"
+}

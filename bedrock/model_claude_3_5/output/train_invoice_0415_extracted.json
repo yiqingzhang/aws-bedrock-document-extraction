@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0415.png",
+  "ground_truth": {
+    "invoice_no": "36475327",
+    "invoice_date": "08/23/2020",
+    "total_gross_worth": "$5605,15",
+    "seller": "Faulkner Group 956 Dennis Cliffs Apt. 138 West Haley, DE 93178",
+    "client": "Mendoza-Scott 581 Christian Canyon Paulburgh, NV 98729"
+  },
+  "extracted": {
+    "invoice_no": "36475327",
+    "invoice_date": "08/23/2020",
+    "total_gross_worth": "$ 5,605.15",
+    "seller": "Faulkner Group\n956 Dennis Cliffs Apt. 138\nWest Haley, DE 93178",
+    "client": "Mendoza-Scott\n581 Christian Canyon\nPaulburgh, NV 98729"
+  },
+  "processing_time": 4.91,
+  "success": true,
+  "timestamp": "2025-10-27T00:35:46.702935"
+}

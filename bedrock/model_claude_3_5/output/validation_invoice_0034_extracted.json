@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/validation/invoice/invoice_0034.png",
+  "ground_truth": {
+    "invoice_no": "87428284",
+    "invoice_date": "06/17/2015",
+    "total_gross_worth": "$21,52",
+    "seller": "Grant and Sons 9167 Holly Divide Apt. 414 Combsside, MI 28094",
+    "client": "Meza, Harrison and Campbell 8386 John Spurs Lauraberg, HI 82777"
+  },
+  "extracted": {
+    "invoice_no": "87428284",
+    "invoice_date": "06/17/2015",
+    "total_gross_worth": "$ 21.52",
+    "seller": "Grant and Sons\n9167 Holly Divide Apt. 414\nCombsside, MI 28094",
+    "client": "Meza, Harrison and Campbell\n8386 John Spurs\nLauraberg, HI 82777"
+  },
+  "processing_time": 4.49,
+  "success": true,
+  "timestamp": "2025-10-27T00:39:20.014709"
+}

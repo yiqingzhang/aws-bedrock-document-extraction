@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0191.png",
+  "ground_truth": {
+    "invoice_no": "65524700",
+    "invoice_date": "02/23/2020",
+    "total_gross_worth": "$ 10 316,95",
+    "seller": "Kirk-Green 7858 Christopher Pass Wellsside, KY 32616",
+    "client": "Hall-Cole 18526 Smith Loop Lake Jeremiah, VT 31868"
+  },
+  "extracted": {
+    "invoice_no": "65524700",
+    "invoice_date": "02/23/2020",
+    "total_gross_worth": "$ 10 316,95",
+    "seller": "Kirk-Green\n7858 Christopher Pass\nWellside, KY 32616",
+    "client": "Hall-Cole\n18526 Smith Loop\nLake Jeremiah, VT 31868"
+  },
+  "processing_time": 5.03,
+  "success": true,
+  "timestamp": "2025-10-26T22:46:32.914683"
+}

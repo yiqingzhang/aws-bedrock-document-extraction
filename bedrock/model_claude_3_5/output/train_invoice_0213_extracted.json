@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0213.png",
+  "ground_truth": {
+    "invoice_no": "54445950",
+    "invoice_date": "05/15/2019",
+    "total_gross_worth": "$53 550,75",
+    "seller": "Coffey Ltd 8273 Cooper Pike Jacobsonchester, CA 65720",
+    "client": "Johnston, Crosby and Alexander 26453 Santos Brooks Kennethburgh, RI 28039"
+  },
+  "extracted": {
+    "invoice_no": "54445950",
+    "invoice_date": "05/15/2019",
+    "total_gross_worth": "$ 53,550.75",
+    "seller": "Coffey Ltd\n8273 Cooper Pike\nJacobsonchester, CA 65720\nTax Id: 919-79-1161\nIBAN: GB49UNPR87058363380300",
+    "client": "Johnston, Crosby and Alexander\n26453 Santos Brooks\nKennethburgh, RI 28039\nTax Id: 933-77-2646"
+  },
+  "processing_time": 5.71,
+  "success": true,
+  "timestamp": "2025-10-27T00:19:56.973318"
+}

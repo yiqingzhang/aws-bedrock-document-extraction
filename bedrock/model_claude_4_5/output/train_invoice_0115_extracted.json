@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0115.png",
+  "ground_truth": {
+    "invoice_no": "46405643",
+    "invoice_date": "05/16/2018",
+    "total_gross_worth": "$3098,57",
+    "seller": "Wilson Inc 52843 Tyler Track Suite 591 Lanemouth, ID 13638",
+    "client": "Burke-Nelson 9539 Jennifer Pass Apt. 228 Erikfort, GA 55885"
+  },
+  "extracted": {
+    "invoice_no": "46405643",
+    "invoice_date": "05/16/2018",
+    "total_gross_worth": "$ 3 098,57",
+    "seller": "Wilson Inc\n52843 Tyler Track Suite 591\nLanemouth, ID 13638",
+    "client": "Burke-Nelson\n9539 Jennifer Pass Apt. 228\nErikfort, GA 55885"
+  },
+  "processing_time": 5.4,
+  "success": true,
+  "timestamp": "2025-10-26T22:39:18.656831"
+}

@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0013.png",
+  "ground_truth": {
+    "invoice_no": "76999802",
+    "invoice_date": "07/14/2020",
+    "total_gross_worth": "$81661,14",
+    "seller": "Nolan, Williams and Roach 6916 Terry Forest Kelseyland, WI 95749",
+    "client": "Dixon, Hall and Payne 104 Maxwell Coves Merrittport, MI 90167"
+  },
+  "extracted": {
+    "invoice_no": "76999802",
+    "invoice_date": "07/14/2020",
+    "total_gross_worth": "$ 81 661,14",
+    "seller": "Nolan, Williams and Roach\n6916 Terry Forest\nKelseyland, WI 95749",
+    "client": "Dixon, Hall and Payne\n104 Maxwell Coves\nMerrittport, MI 90167"
+  },
+  "processing_time": 6.06,
+  "success": true,
+  "timestamp": "2025-10-26T22:29:21.192183"
+}

@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0176.png",
+  "ground_truth": {
+    "invoice_no": "10817861",
+    "invoice_date": "06/09/2020",
+    "total_gross_worth": "11880,00",
+    "seller": "Hughes-jones 565 Michael Cape Apt. 347 Port Brianside, DE 28251",
+    "client": "Shaw, Williams and Johnston 08089 Arnold Trail Suite 577 West Valerieland, MS 52039"
+  },
+  "extracted": {
+    "invoice_no": "10817861",
+    "invoice_date": "06/09/2020",
+    "total_gross_worth": "$ 11,880.00",
+    "seller": "Hughes-Jones\n565 Michael Cape Apt. 347\nPort Brianside, DE 28251\nTax Id: 905-82-3364\nIBAN: GB58XSSC05650878610110",
+    "client": "Shaw, Williams and Johnston\n08089 Arnold Trail Suite 577\nWest Valerieland, MS 52039\nTax Id: 949-85-0610"
+  },
+  "processing_time": 5.21,
+  "success": true,
+  "timestamp": "2025-10-27T00:17:05.933280"
+}

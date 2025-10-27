@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0355.png",
+  "ground_truth": {
+    "invoice_no": "69703455",
+    "invoice_date": "02/06/2014",
+    "total_gross_worth": "$4007,31",
+    "seller": "Anderson Group 793 William Inlet Michaelhaven, RI 22480",
+    "client": "Hendricks, Hart and Miller 81747 Brown Corner Apt. 501 Baileyfort, WV 16678"
+  },
+  "extracted": {
+    "invoice_no": "69703455",
+    "invoice_date": "02/06/2014",
+    "total_gross_worth": "$ 4 007,31",
+    "seller": "Anderson Group\n793 William Inlet\nMichaelhaven, RI 22480",
+    "client": "Hendricks, Hart and Miller\n81747 Brown Corner Apt. 501\nBaileyfort, WV 16678"
+  },
+  "processing_time": 6.02,
+  "success": true,
+  "timestamp": "2025-10-26T23:03:00.669914"
+}

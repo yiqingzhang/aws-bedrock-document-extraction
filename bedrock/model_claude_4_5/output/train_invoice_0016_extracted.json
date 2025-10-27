@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0016.png",
+  "ground_truth": {
+    "invoice_no": "74322107",
+    "invoice_date": "02/02/2016",
+    "total_gross_worth": "$ 68,16",
+    "seller": "Davis-Obrien 736 Derek Station Suite 883 New Laura, WA 77568",
+    "client": "Taylor Ltd 213 Thomas Vista East Zacharyshire, WI 95033"
+  },
+  "extracted": {
+    "invoice_no": "74322107",
+    "invoice_date": "02/02/2016",
+    "total_gross_worth": "$ 68,16",
+    "seller": "Davis-Obrien\n736 Derek Station Suite 883\nNew Laura, WA 77568",
+    "client": "Taylor Ltd\n213 Thomas Vista\nEast Zacharyshire, WI 95033"
+  },
+  "processing_time": 5.29,
+  "success": true,
+  "timestamp": "2025-10-26T22:29:37.780587"
+}

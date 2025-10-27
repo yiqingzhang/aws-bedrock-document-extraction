@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/validation/invoice/invoice_0006.png",
+  "ground_truth": {
+    "invoice_no": "79128264",
+    "invoice_date": "12/31/2014",
+    "total_gross_worth": "$ 382,98",
+    "seller": "Rivera-Thompson 0115 Brown Drives Ryanside, NM 95662",
+    "client": "Pearson, Gibbs and Ayala 795 Brittany Points Suite 504 Riceland, AZ 55140"
+  },
+  "extracted": {
+    "invoice_no": "79128264",
+    "invoice_date": "12/31/2014",
+    "total_gross_worth": "$ 382,98",
+    "seller": "Rivera-Thompson\n0115 Brown Drives\nRyanside, NM 95662",
+    "client": "Pearson, Gibbs and Ayala\n795 Brittany Points Suite 504\nRiceland, AZ 55140"
+  },
+  "processing_time": 5.99,
+  "success": true,
+  "timestamp": "2025-10-26T23:10:28.839946"
+}

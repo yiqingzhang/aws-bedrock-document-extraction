@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0397.png",
+  "ground_truth": {
+    "invoice_no": "32075407",
+    "invoice_date": "04/16/2017",
+    "total_gross_worth": "$4190,95",
+    "seller": "Duncan, Montes and Cooper 13062 Cathy Estates Apt. 508 Stephensmouth, GA 22100",
+    "client": "Stephens, Thompson and Cooper 090 Matthew Camp Lake Caroltown, NE 29614"
+  },
+  "extracted": {
+    "invoice_no": "32075407",
+    "invoice_date": "04/16/2017",
+    "total_gross_worth": "$ 4 190,95",
+    "seller": "Duncan, Montes and Cooper\n13062 Cathy Estates Apt. 508\nStephensmouth, GA 22100",
+    "client": "Stephens, Thompson and Cooper\n090 Matthew Camp\nLake Caroltown, NE 29614"
+  },
+  "processing_time": 6.96,
+  "success": true,
+  "timestamp": "2025-10-26T23:07:06.124402"
+}

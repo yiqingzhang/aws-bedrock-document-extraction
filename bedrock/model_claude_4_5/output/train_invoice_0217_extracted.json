@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0217.png",
+  "ground_truth": {
+    "invoice_no": "14875723",
+    "invoice_date": "04/11/2014",
+    "total_gross_worth": "$26591,16",
+    "seller": "Gray Inc 058 Patrick Heights Davismouth, NH 62067",
+    "client": "Perkins LLC 0977 Jennifer Spurs East Elizabeth, NE 59360"
+  },
+  "extracted": {
+    "invoice_no": "14875723",
+    "invoice_date": "04/11/2014",
+    "total_gross_worth": "$ 26 591,16",
+    "seller": "Gray Inc\n058 Patrick Heights\nDavismouth, NH 62067",
+    "client": "Perkins LLC\n0977 Jennifer Spurs\nEast Elizabeth, NE 59360"
+  },
+  "processing_time": 5.11,
+  "success": true,
+  "timestamp": "2025-10-26T22:49:18.381935"
+}

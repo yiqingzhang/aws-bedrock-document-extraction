@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0046.png",
+  "ground_truth": {
+    "invoice_no": "92651511",
+    "invoice_date": "01/18/2015",
+    "total_gross_worth": "$13986,35",
+    "seller": "Jones Inc 841 Megan Square Apt. 156 Danielbury, VA 27103",
+    "client": "Macdonald Ltd 33169 Cody Falls Apt. 775 North Matthew, MA 96841"
+  },
+  "extracted": {
+    "invoice_no": "92651511",
+    "invoice_date": "01/18/2015",
+    "total_gross_worth": "$ 13,986.35",
+    "seller": "Jones Inc\n841 Megan Square Apt. 156\nDanielbury, VA 27103",
+    "client": "Macdonald Ltd\n33169 Cody Falls Apt. 775\nNorth Matthew, MA 96841"
+  },
+  "processing_time": 4.51,
+  "success": true,
+  "timestamp": "2025-10-27T00:06:58.238066"
+}

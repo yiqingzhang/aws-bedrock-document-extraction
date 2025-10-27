@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0085.png",
+  "ground_truth": {
+    "invoice_no": "77256632",
+    "invoice_date": "05/05/2013",
+    "total_gross_worth": "$15,36",
+    "seller": "Cox-Ortega 52235 Rivera Ridges Suite 139 Port Alexanderstad, NH 49836",
+    "client": "Giles Inc 7847 Rosales Lakes Apt. 767 West Loristad, WY 38537"
+  },
+  "extracted": {
+    "invoice_no": "77256632",
+    "invoice_date": "05/05/2013",
+    "total_gross_worth": "$ 15.36",
+    "seller": "Cox-Ortega\n52235 Rivera Ridges Suite 139\nPort Alexanderstad, NH 49836",
+    "client": "Giles Inc\n7847 Rosales Lakes Apt. 767\nWest Loristad, WY 38537"
+  },
+  "processing_time": 4.26,
+  "success": true,
+  "timestamp": "2025-10-27T00:09:57.999093"
+}

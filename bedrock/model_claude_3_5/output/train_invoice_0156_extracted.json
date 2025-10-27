@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0156.png",
+  "ground_truth": {
+    "invoice_no": "91966464",
+    "invoice_date": "08/24/2020",
+    "total_gross_worth": "$1394,75",
+    "seller": "Taylor and Sons 073 Christopher Fall Georgemouth, CA 01544",
+    "client": "Hays and Sons 63998 Rojas Trafficway Port Danny, NC 49968"
+  },
+  "extracted": {
+    "invoice_no": "91966464",
+    "invoice_date": "08/24/2020",
+    "total_gross_worth": "$ 1 394,75",
+    "seller": "Taylor and Sons\n073 Christopher Fall\nGeorgemouth, CA 01544",
+    "client": "Hays and Sons\n63998 Rojas Trafficway\nPort Danny, NC 49968"
+  },
+  "processing_time": 4.54,
+  "success": true,
+  "timestamp": "2025-10-27T00:15:28.098916"
+}

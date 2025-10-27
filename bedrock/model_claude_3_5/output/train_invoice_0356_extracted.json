@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0356.png",
+  "ground_truth": {
+    "invoice_no": "13367493",
+    "invoice_date": "02/21/2012",
+    "total_gross_worth": "$ 494,89",
+    "seller": "Terry, Crawford and Vega 2744 Olson Extension Suite 147 Lake Edward, VA 62672",
+    "client": "Martin-Schmidt 726 Mills Island Apt. 702 Randyville, MA 40113"
+  },
+  "extracted": {
+    "invoice_no": "13367493",
+    "invoice_date": "02/21/2012",
+    "total_gross_worth": "$ 494,89",
+    "seller": "Terry, Crawford and Vega\n2744 Olson Extension Suite 147\nLake Edward, VA 62672",
+    "client": "Martin-Schmidt\n726 Mills Island Apt. 702\nRandyville, MA 40113"
+  },
+  "processing_time": 4.42,
+  "success": true,
+  "timestamp": "2025-10-27T00:31:05.216130"
+}

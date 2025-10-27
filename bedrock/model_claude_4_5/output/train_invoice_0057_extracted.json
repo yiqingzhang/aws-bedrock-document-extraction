@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0057.png",
+  "ground_truth": {
+    "invoice_no": "16581981",
+    "invoice_date": "07/26/2016",
+    "total_gross_worth": "$ 222,58",
+    "seller": "Barber LLC 9294 Tina Plains East Emily, IL 26489",
+    "client": "Case, Wagner and Johnson 2308 Sarah Island South Larry, NH 84344"
+  },
+  "extracted": {
+    "invoice_no": "16581981",
+    "invoice_date": "07/26/2016",
+    "total_gross_worth": "$ 222,58",
+    "seller": "Barber LLC\n9294 Tina Plains\nEast Emily, IL 26489",
+    "client": "Case, Wagner and Johnson\n2308 Sarah Island\nSouth Larry, NH 84344"
+  },
+  "processing_time": 5.61,
+  "success": true,
+  "timestamp": "2025-10-26T22:33:44.874164"
+}

@@ -1,0 +1,105 @@
+╔══════════════════════════════════════════════════════════════════════╗
+║          AWS BEDROCK INVOICE EXTRACTION SYSTEM                       ║
+║                   Implementation Complete!                           ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+QUICK START (3 Steps):
+─────────────────────────────────────────────────────────────────────
+
+1. Install Dependencies
+   cd bedrock
+   pip install -r requirements.txt
+
+2. Configure AWS Credentials
+   aws configure
+   (Enter your AWS Access Key, Secret Key, and region: ap-southeast-2)
+
+3. Run Extraction Pipeline
+   python run_extraction.py
+
+That's it! The system will process all 501 invoices and generate metrics.
+
+─────────────────────────────────────────────────────────────────────
+
+WHAT YOU GET:
+─────────────────────────────────────────────────────────────────────
+
+✅ Extracted data from 501 invoice images
+✅ 5 key fields: invoice_no, invoice_date, total_gross_worth, seller, client
+✅ Comprehensive accuracy metrics
+✅ Detailed evaluation report
+
+Output Files:
+  • output/                      - JSON extraction results (1 per invoice)
+  • logs/evaluation_report.json  - Detailed accuracy metrics
+  • logs/evaluation_summary.json - Quick summary
+  • logs/extraction_stats.json   - Processing statistics
+
+─────────────────────────────────────────────────────────────────────
+
+ESTIMATED PROCESSING:
+─────────────────────────────────────────────────────────────────────
+
+Time:  15-30 minutes
+Cost:  $0.50-1.00 USD (AWS Bedrock)
+Rate:  ~2-3 seconds per invoice
+
+─────────────────────────────────────────────────────────────────────
+
+FILES CREATED:
+─────────────────────────────────────────────────────────────────────
+
+Python Scripts:
+  • bedrock_vision_client.py     - AWS Bedrock client with vision support
+  • extract_invoices.py          - Main extraction logic
+  • evaluate_extraction.py       - Accuracy evaluation
+  • run_extraction.py            - Pipeline orchestrator
+
+Documentation:
+  • README.md                    - Complete documentation
+  • QUICKSTART.md                - Quick start guide
+  • IMPLEMENTATION_SUMMARY.md    - Technical details
+  • GETTING_STARTED.txt          - This file
+
+─────────────────────────────────────────────────────────────────────
+
+FEATURES:
+─────────────────────────────────────────────────────────────────────
+
+✅ Processes all splits (test/train/validation) merged together
+✅ Resume capability (skips already-processed invoices)
+✅ Retry logic with exponential backoff
+✅ Progress tracking with ETA
+✅ Graceful error handling
+✅ Comprehensive evaluation metrics
+
+─────────────────────────────────────────────────────────────────────
+
+TROUBLESHOOTING:
+─────────────────────────────────────────────────────────────────────
+
+Issue: AWS credentials error
+Fix:   Run 'aws configure' and enter your credentials
+
+Issue: Bedrock access denied
+Fix:   Ensure IAM user has 'bedrock:InvokeModel' permission
+
+Issue: Script interrupted
+Fix:   Just run it again! Already-processed files are skipped
+
+─────────────────────────────────────────────────────────────────────
+
+NEED HELP?
+─────────────────────────────────────────────────────────────────────
+
+• Quick Start:  See QUICKSTART.md
+• Full Docs:    See README.md  
+• Tech Details: See IMPLEMENTATION_SUMMARY.md
+
+─────────────────────────────────────────────────────────────────────
+
+Ready to start? Run:
+  
+  cd bedrock
+  python run_extraction.py
+

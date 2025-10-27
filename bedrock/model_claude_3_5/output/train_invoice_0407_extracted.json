@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0407.png",
+  "ground_truth": {
+    "invoice_no": "47981077",
+    "invoice_date": "07/10/2017",
+    "total_gross_worth": "$18 165,14",
+    "seller": "Santiago-King 80105 Flores Ferry Heatherside, MI 85710",
+    "client": "Shelton-Mason Unit 7068 Box 4271 DPO AE 42297"
+  },
+  "extracted": {
+    "invoice_no": "47981077",
+    "invoice_date": "07/10/2017",
+    "total_gross_worth": "$ 18,165.14",
+    "seller": "Santiago-King\n80105 Flores Ferry\nHeatherside, MI 85710\nTax Id: 929-82-8651\nIBAN: GB81KHDY06695208511692",
+    "client": "Shelton-Mason\nUnit 7068 Box 4271\nDPO AE 42297\nTax Id: 934-77-3140"
+  },
+  "processing_time": 5.59,
+  "success": true,
+  "timestamp": "2025-10-27T00:35:06.986479"
+}

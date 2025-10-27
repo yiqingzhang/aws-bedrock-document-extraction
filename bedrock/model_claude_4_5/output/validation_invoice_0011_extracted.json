@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/validation/invoice/invoice_0011.png",
+  "ground_truth": {
+    "invoice_no": "37999492",
+    "invoice_date": "10/22/2017",
+    "total_gross_worth": "$4949,18",
+    "seller": "Smith Ltd 783 Harmon Mews New Andrew, MN 96499",
+    "client": "Jones, Miller and Yoder 97586 Alvarado Common Apt. 920 West Tracichester, MD 67308"
+  },
+  "extracted": {
+    "invoice_no": "37999492",
+    "invoice_date": "10/22/2017",
+    "total_gross_worth": "$ 4 949,18",
+    "seller": "Smith Ltd\n783 Harmon Mews\nNew Andrew, MN 96499",
+    "client": "Jones, Miller and Yoder\n97586 Alvarado Common Apt. 920\nWest Tracichester, MD 67308"
+  },
+  "processing_time": 6.01,
+  "success": true,
+  "timestamp": "2025-10-26T23:10:58.553104"
+}

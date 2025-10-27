@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/test/invoice/invoice_0000.png",
+  "ground_truth": {
+    "invoice_no": "97159829",
+    "invoice_date": "09/18/2015",
+    "total_gross_worth": "$ 978,12",
+    "seller": "Bradley-Andrade 9879 Elizabeth Common Lake Jonathan, RI 12335",
+    "client": "Castro PLC Unit 9678 Box 9664 DPO AP 69387"
+  },
+  "extracted": {
+    "invoice_no": "97159829",
+    "invoice_date": "09/18/2015",
+    "total_gross_worth": "$ 978,12",
+    "seller": "Bradley-Andrade\n9879 Elizabeth Common\nLake Jonathan, RI 12335",
+    "client": "Castro PLC\nUnit 9678 Box 9664\nDPO AP 69387"
+  },
+  "processing_time": 5.3,
+  "success": true,
+  "timestamp": "2025-10-26T22:25:39.181468"
+}

@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0380.png",
+  "ground_truth": {
+    "invoice_no": "54299574",
+    "invoice_date": "11/20/2013",
+    "total_gross_worth": "$ 33 847,07",
+    "seller": "Blankenship Inc 4205 John Groves Aguilarbury, GA 74451",
+    "client": "Ortega-Ramos 47406 Houston Ford Sotoberg, WV 16127"
+  },
+  "extracted": {
+    "invoice_no": "54299574",
+    "invoice_date": "11/20/2013",
+    "total_gross_worth": "$ 33,847.07",
+    "seller": "Blankenship Inc\n4205 John Groves\nAguilarbury, GA 74451",
+    "client": "Ortega-Ramos\n47406 Houston Ford\nSotoberg, WV 16127"
+  },
+  "processing_time": 4.6,
+  "success": true,
+  "timestamp": "2025-10-27T00:32:55.612889"
+}

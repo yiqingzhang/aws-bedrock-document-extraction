@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0268.png",
+  "ground_truth": {
+    "invoice_no": "74178352",
+    "invoice_date": "09/03/2014",
+    "total_gross_worth": "$ 760,48",
+    "seller": "Morgan, Moss and Bush Unit 7226 Box 9524 DPO AA 56046",
+    "client": "Robinson-Martin 8218 Kelly Mountains Bishopfort, CO40626"
+  },
+  "extracted": {
+    "invoice_no": "74178352",
+    "invoice_date": "09/03/2014",
+    "total_gross_worth": "$ 760,48",
+    "seller": "Morgan, Moss and Bush\nUnit 7226 Box 9524\nDPO AA 56046",
+    "client": "Robinson-Martin\n8218 Kelly Mountains\nBishopfort, CO 40626"
+  },
+  "processing_time": 5.22,
+  "success": true,
+  "timestamp": "2025-10-26T22:54:11.146652"
+}

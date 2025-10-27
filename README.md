@@ -224,3 +224,4 @@ This is a learning repository. Feel free to:
 
 **Ready to start?** Check out `data_extraction_scripts/use_extracted_data_example.py` for practical examples, or dive directly into the `data/` folder to explore the invoice images and annotations!
 
+

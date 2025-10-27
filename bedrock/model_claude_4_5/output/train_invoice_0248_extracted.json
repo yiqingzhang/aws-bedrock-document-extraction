@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0248.png",
+  "ground_truth": {
+    "invoice_no": "36526167",
+    "invoice_date": "01/05/2013",
+    "total_gross_worth": "$ 148,19",
+    "seller": "Roy and Sons 9089 Gallegos Road New Josetown, KS 56485",
+    "client": "Mahoney, Bird and Gonzalez 46369 Patton Stravenue Apt. 576 Lake Jonathanstad, AR 10360"
+  },
+  "extracted": {
+    "invoice_no": "36526167",
+    "invoice_date": "01/05/2013",
+    "total_gross_worth": "$ 148,19",
+    "seller": "Roy and Sons\n9089 Gallegos Road\nNew Josetown, KS 56485",
+    "client": "Mahoney, Bird and Gonzalez\n46369 Patton Stravenue Apt. 576\nLake Jonathanstad, AR 10360"
+  },
+  "processing_time": 5.42,
+  "success": true,
+  "timestamp": "2025-10-26T22:52:21.781397"
+}

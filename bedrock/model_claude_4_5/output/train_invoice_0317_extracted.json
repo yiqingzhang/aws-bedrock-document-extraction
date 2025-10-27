@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0317.png",
+  "ground_truth": {
+    "invoice_no": "91451938",
+    "invoice_date": "10/27/2018",
+    "total_gross_worth": "$1319,96",
+    "seller": "Webb-Short 35094 Wright Club Steinstad, TN 57511",
+    "client": "Lee LLC 79572 Pruitt Plains Lake Danielstad, NJ 20722"
+  },
+  "extracted": {
+    "invoice_no": "91451938",
+    "invoice_date": "10/27/2018",
+    "total_gross_worth": "$ 1 319.96",
+    "seller": "Webb-Short\n35094 Wright Club\nSeinstad, TN 57511",
+    "client": "Lee LLC\n79572 Pruitt Plains\nLake Danielstad, NJ 20722"
+  },
+  "processing_time": 5.04,
+  "success": true,
+  "timestamp": "2025-10-26T22:59:06.719703"
+}

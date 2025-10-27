@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0020.png",
+  "ground_truth": {
+    "invoice_no": "51686132",
+    "invoice_date": "06/27/2015",
+    "total_gross_worth": "$1523,45",
+    "seller": "Stephens PLC PSC 4501, Box 4964 APO AA 03160",
+    "client": "White, Blevins and Ellis Unit 7297 Box 4160 DPO AP 42542"
+  },
+  "extracted": {
+    "invoice_no": "51686132",
+    "invoice_date": "06/27/2015",
+    "total_gross_worth": "$ 1 523,45",
+    "seller": "Stephens PLC\nPSC 4501, Box 4964\nAPO AA 03160",
+    "client": "White, Blevins and Ellis\nUnit 7297 Box 4160\nDPO AP 42542"
+  },
+  "processing_time": 5.87,
+  "success": true,
+  "timestamp": "2025-10-26T22:30:00.346746"
+}

@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0171.png",
+  "ground_truth": {
+    "invoice_no": "48902311",
+    "invoice_date": "03/31/2016",
+    "total_gross_worth": "$ 645,56",
+    "seller": "Hill Group 47445 Tiffany Canyon Suite 530 Lake Carolyn, MN 88734",
+    "client": "Calhoun PLC 692 Pittman Square Apt. 121 Victorfort, KY 65016"
+  },
+  "extracted": {
+    "invoice_no": "48902311",
+    "invoice_date": "03/31/2016",
+    "total_gross_worth": "$ 645,56",
+    "seller": "Hill Group\n47445 Tiffany Canyon Suite 530\nLake Carolyn, MN 88734",
+    "client": "Calhoun PLC\n692 Pittman Square Apt. 121\nVictorfort, KY 65016"
+  },
+  "processing_time": 5.63,
+  "success": true,
+  "timestamp": "2025-10-26T22:44:37.183194"
+}

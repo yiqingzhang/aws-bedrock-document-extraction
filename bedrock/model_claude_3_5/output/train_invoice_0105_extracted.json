@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0105.png",
+  "ground_truth": {
+    "invoice_no": "65507091",
+    "invoice_date": "07/30/2014",
+    "total_gross_worth": "$67572,13",
+    "seller": "Pacheco, Simmons and Coleman 241 Heidi Vista Apt. 333 Odomville, DC 06454",
+    "client": "Hensley LLC 875 Jessica Course Apt. 269 North Kari, LA 34931"
+  },
+  "extracted": {
+    "invoice_no": "65507091",
+    "invoice_date": "07/30/2014",
+    "total_gross_worth": "$ 67,572.13",
+    "seller": "Pacheco, Simmons and Coleman\n241 Heidi Vista Apt. 333\nOdomville, DC 06454",
+    "client": "Hensley LLC\n875 Jessica Course Apt. 269\nNorth Kari, LA 34931"
+  },
+  "processing_time": 4.49,
+  "success": true,
+  "timestamp": "2025-10-27T00:11:32.929490"
+}

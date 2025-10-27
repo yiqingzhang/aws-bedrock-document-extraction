@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0175.png",
+  "ground_truth": {
+    "invoice_no": "89098949",
+    "invoice_date": "11/18/2018",
+    "total_gross_worth": "$26 764,68",
+    "seller": "Mason-Cross 0258 Katie Terrace Lake Joseph, DC 99273",
+    "client": "Short-Gonzalez 378 Elijah Divide North Sharon, NM 63947"
+  },
+  "extracted": {
+    "invoice_no": "89098949",
+    "invoice_date": "11/18/2018",
+    "total_gross_worth": "$ 26,764.68",
+    "seller": "Mason-Cross\n0258 Katie Terrace\nLake Joseph, DC 99273\nTax Id: 916-96-8787\nIBAN: GB21BNCC20926036398760",
+    "client": "Short-Gonzalez\n378 Elijah Divide\nNorth Sharon, NM 63947\nTax Id: 956-72-7845"
+  },
+  "processing_time": 5.31,
+  "success": true,
+  "timestamp": "2025-10-27T00:17:00.710939"
+}

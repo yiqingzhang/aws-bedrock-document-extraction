@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/test/invoice/invoice_0013.png",
+  "ground_truth": {
+    "invoice_no": "96051364",
+    "invoice_date": "04/28/2020",
+    "total_gross_worth": "$ 1579 929,37",
+    "seller": "Jackson Ltd 134 Catherine Valley Apt. 756 Lake Jennifer, NE 09531",
+    "client": "Williams, Fowler and Phillips 115 Mccormick Knolls North Kevin, TN 27580"
+  },
+  "extracted": {
+    "invoice_no": "96051364",
+    "invoice_date": "04/28/2020",
+    "total_gross_worth": "$ 157 929,37",
+    "seller": "Jackson Ltd\n134 Catherine Valley Apt. 756\nLake Jennifer, NE 09531",
+    "client": "Williams, Fowler and Phillips\n115 Mccormick Knolls\nNorth Kevin, TN 27580"
+  },
+  "processing_time": 6.4,
+  "success": true,
+  "timestamp": "2025-10-26T22:26:52.292934"
+}

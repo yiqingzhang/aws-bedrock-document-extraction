@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0206.png",
+  "ground_truth": {
+    "invoice_no": "60860535",
+    "invoice_date": "09/14/2015",
+    "total_gross_worth": "$ 153,97",
+    "seller": "Shields, Copeland and Gallegos 039 Matthew Freeway Suite 656 Lake Staceytown, TX 91822",
+    "client": "Lamb Group 33050 Perry Hills Suite 603 North Brandon, RI 99310"
+  },
+  "extracted": {
+    "invoice_no": "60860535",
+    "invoice_date": "09/14/2015",
+    "total_gross_worth": "$ 153.97",
+    "seller": "Shields, Copeland and Gallegos\n039 Matthew Freeway Suite 656\nLake Staceytown, TX 91822",
+    "client": "Lamb Group\n33050 Perry Hills Suite 603\nNorth Brandon, RI 99310"
+  },
+  "processing_time": 4.29,
+  "success": true,
+  "timestamp": "2025-10-27T00:19:25.397010"
+}

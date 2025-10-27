@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/validation/invoice/invoice_0003.png",
+  "ground_truth": {
+    "invoice_no": "53339803",
+    "invoice_date": "09/11/2018",
+    "total_gross_worth": "$ 16 830,00",
+    "seller": "Evans LLC 507 Young Parks Suite 231 Robinsonside, WV 82205",
+    "client": "Ball, Smith and Rhodes 472 Marcus Courts Kristinatown, AK 01280"
+  },
+  "extracted": {
+    "invoice_no": "53339803",
+    "invoice_date": "09/11/2018",
+    "total_gross_worth": "$ 16 830,00",
+    "seller": "Evans LLC\n507 Young Parks Suite 231\nRobinsonside, WV 82205",
+    "client": "Ball, Smith and Rhodes\n472 Marcus Courts\nKristinatown, AK 01280"
+  },
+  "processing_time": 5.78,
+  "success": true,
+  "timestamp": "2025-10-26T23:10:11.466013"
+}

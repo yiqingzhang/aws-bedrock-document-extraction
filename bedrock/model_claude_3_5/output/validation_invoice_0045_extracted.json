@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/validation/invoice/invoice_0045.png",
+  "ground_truth": {
+    "invoice_no": "30885203",
+    "invoice_date": "03/28/2020",
+    "total_gross_worth": "$ 355,07",
+    "seller": "Shepard PLC 38754 Lisa Grove Lake Billyton, ID 54381",
+    "client": "Mays and Sons 4681 Warner Mountains Gillmouth, NY 78497"
+  },
+  "extracted": {
+    "invoice_no": "30885203",
+    "invoice_date": "03/28/2020",
+    "total_gross_worth": "$ 355.07",
+    "seller": "Shepard PLC\n38754 Lisa Grove\nLake Billyton, ID 54381\nTax Id: 929-84-1184\nIBAN: GB02ONNL63005814637467",
+    "client": "Mays and Sons\n4681 Warner Mountains\nGillmouth, NY 78497\nTax Id: 937-72-6142"
+  },
+  "processing_time": 5.33,
+  "success": true,
+  "timestamp": "2025-10-27T00:40:08.696465"
+}

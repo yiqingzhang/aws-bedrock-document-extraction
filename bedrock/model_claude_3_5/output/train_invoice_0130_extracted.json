@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0130.png",
+  "ground_truth": {
+    "invoice_no": "13044521",
+    "invoice_date": "01/02/2013",
+    "total_gross_worth": "$53078,96",
+    "seller": "Johnson Group 41474 Alexa Valley Maddoxside, DC 90699",
+    "client": "Garcia and Sons 6500 Diana Terrace Suite 601 New Laura, DC 84719"
+  },
+  "extracted": {
+    "invoice_no": "13044521",
+    "invoice_date": "01/02/2013",
+    "total_gross_worth": "$ 53 078,96",
+    "seller": "Johnson Group\n41474 Alexa Valley\nMaddoxside, DC 90699\nTax Id: 942-98-3474\nIBAN: GB76MFUI00830050935765",
+    "client": "Garcia and Sons\n6500 Diana Terrace Suite 601\nNew Laura, DC 84719\nTax Id: 961-71-7742"
+  },
+  "processing_time": 5.26,
+  "success": true,
+  "timestamp": "2025-10-27T00:13:26.693334"
+}

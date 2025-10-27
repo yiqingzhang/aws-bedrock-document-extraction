@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0003.png",
+  "ground_truth": {
+    "invoice_no": "95611677",
+    "invoice_date": "07/19/2016",
+    "total_gross_worth": "$1054,10",
+    "seller": "Franco Group 796 Arnold Cove Apt. 091 Reginaport, AZ 06940",
+    "client": "Johnson Group 0693 Robin Mountain Apt. 180 Lake Christina, MI 87634"
+  },
+  "extracted": {
+    "invoice_no": "95611677",
+    "invoice_date": "07/19/2016",
+    "total_gross_worth": "$ 1 054,10",
+    "seller": "Franco Group\n796 Arnold Cove Apt. 091\nReginaport, AZ 06940",
+    "client": "Johnson Group\n0693 Robin Mountain Apt. 180\nLake Christina, MI 87634"
+  },
+  "processing_time": 5.73,
+  "success": true,
+  "timestamp": "2025-10-26T22:28:23.231955"
+}

@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0059.png",
+  "ground_truth": {
+    "invoice_no": "22537855",
+    "invoice_date": "07/03/2013",
+    "total_gross_worth": "$ 10559,00",
+    "seller": "Barton, Garcia and Richards 3194 Brianna Path Suite 785 Cainfort, WV 50923",
+    "client": "Wilson, Wagner and Newman 7038 Burns Street Rhodesville, MN 41253"
+  },
+  "extracted": {
+    "invoice_no": "22537855",
+    "invoice_date": "07/03/2013",
+    "total_gross_worth": "$ 10 559,00",
+    "seller": "Barton, Garcia and Richards\n3194 Brianna Path Suite 785\nCainfort, WV 50923",
+    "client": "Wilson, Wagner and Newman\n7038 Burns Street\nRhodesville, MN 41253"
+  },
+  "processing_time": 6.14,
+  "success": true,
+  "timestamp": "2025-10-26T22:33:56.759929"
+}

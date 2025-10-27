@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0192.png",
+  "ground_truth": {
+    "invoice_no": "15226383",
+    "invoice_date": "12/13/2012",
+    "total_gross_worth": "$ 331,99",
+    "seller": "Banks Group 9674 Sullivan Island Marilynstad, NH 88620",
+    "client": "Hudson-Calderon 86827 Katherine Springs Suite 411 Tracyton, NE 03962"
+  },
+  "extracted": {
+    "invoice_no": "15226383",
+    "invoice_date": "12/13/2012",
+    "total_gross_worth": "$ 331,99",
+    "seller": "Banks Group\n9674 Sullivan Island\nMarilynstad, NH 88620",
+    "client": "Hudson-Calderon\n86827 Katherine Springs Suite 411\nTracyton, NE 03962"
+  },
+  "processing_time": 5.49,
+  "success": true,
+  "timestamp": "2025-10-26T22:46:38.410173"
+}

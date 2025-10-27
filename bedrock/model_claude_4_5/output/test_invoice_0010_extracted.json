@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/test/invoice/invoice_0010.png",
+  "ground_truth": {
+    "invoice_no": "72455228",
+    "invoice_date": "05/11/2021",
+    "total_gross_worth": "$2155,98",
+    "seller": "Potts, Reed and Miller USCGC Weeks FPO AA 06868",
+    "client": "Brady LLC 26039 Anita Stravenue North Peter, WA 22187"
+  },
+  "extracted": {
+    "invoice_no": "72455228",
+    "invoice_date": "05/11/2021",
+    "total_gross_worth": "$ 2 155,98",
+    "seller": "Potts, Reed and Miller\nUSCGC Weeks\nFPO AA 06868",
+    "client": "Brady LLC\n26039 Anita Stravenue\nNorth Peter, WA 22187"
+  },
+  "processing_time": 5.67,
+  "success": true,
+  "timestamp": "2025-10-26T22:26:34.668554"
+}

@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0357.png",
+  "ground_truth": {
+    "invoice_no": "93219493",
+    "invoice_date": "05/16/2019",
+    "total_gross_worth": "$1255,00",
+    "seller": "James PLC 452 Michelle Branch Aaronberg, UT 13177",
+    "client": "Bryant-Taylor 075 Gary Union Suite 231 New Lindsayberg, WY 10457"
+  },
+  "extracted": {
+    "invoice_no": "93219493",
+    "invoice_date": "05/16/2019",
+    "total_gross_worth": "$ 1,255.00",
+    "seller": "James PLC\n452 Michelle Branch\nAaronberg, UT 13177\nTax Id: 911-98-9831\nIBAN: GB71QDSH79257841046423",
+    "client": "Bryant-Taylor\n075 Gary Union Suite 231\nNew Lindsayberg, WY 10457\nTax Id: 956-92-2147"
+  },
+  "processing_time": 5.4,
+  "success": true,
+  "timestamp": "2025-10-27T00:31:10.641692"
+}

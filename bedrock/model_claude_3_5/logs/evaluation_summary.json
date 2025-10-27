@@ -1,0 +1,38 @@
+{
+  "total_invoices": 501,
+  "successful_extractions": 501,
+  "failed_extractions": 0,
+  "field_accuracy": {
+    "invoice_no": {
+      "correct": 489,
+      "total": 501,
+      "accuracy": 0.976
+    },
+    "invoice_date": {
+      "correct": 491,
+      "total": 501,
+      "accuracy": 0.98
+    },
+    "total_gross_worth": {
+      "correct": 223,
+      "total": 501,
+      "accuracy": 0.4451
+    },
+    "seller": {
+      "correct": 333,
+      "total": 501,
+      "accuracy": 0.6647
+    },
+    "client": {
+      "correct": 343,
+      "total": 501,
+      "accuracy": 0.6846
+    }
+  },
+  "overall_accuracy": {
+    "correct": 147,
+    "total": 501,
+    "accuracy": 0.2934
+  },
+  "evaluation_timestamp": "2025-10-27T12:34:00.119599"
+}

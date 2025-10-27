@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0406.png",
+  "ground_truth": {
+    "invoice_no": "86792000",
+    "invoice_date": "04/11/2020",
+    "total_gross_worth": "$ 496,43",
+    "seller": "Chandler-Figueroa 9359 Tina Fords Meganshire, FL 51139",
+    "client": "Blackbum.Stephenson USCGC Morrison FPO AA 93671"
+  },
+  "extracted": {
+    "invoice_no": "86792000",
+    "invoice_date": "04/11/2020",
+    "total_gross_worth": "$ 496,43",
+    "seller": "Chandler-Figueroa\n9359 Tina Fords\nMeganshire, FL 51139",
+    "client": "Blackburn-Stephenson\nUSCGC Morrison\nFPO AA 93671"
+  },
+  "processing_time": 5.72,
+  "success": true,
+  "timestamp": "2025-10-26T23:07:57.935316"
+}

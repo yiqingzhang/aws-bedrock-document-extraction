@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0270.png",
+  "ground_truth": {
+    "invoice_no": "64103969",
+    "invoice_date": "11/28/2015",
+    "total_gross_worth": "$ 169,37",
+    "seller": "Garcia, Powell and Osborne 07673 Amanda Turnpike Padillaside, NM 76362",
+    "client": "Le and Sons 42240 James Pass Apt. 702 New James, VA 18916"
+  },
+  "extracted": {
+    "invoice_no": "64103969",
+    "invoice_date": "11/28/2015",
+    "total_gross_worth": "$ 169,37",
+    "seller": "Garcia, Powell and Osborne\n07673 Amanda Turnpike\nPadillaside, NM 76362",
+    "client": "Le and Sons\n42240 James Pass Apt. 702\nNew James, VA 18916"
+  },
+  "processing_time": 7.29,
+  "success": true,
+  "timestamp": "2025-10-26T22:54:25.223375"
+}

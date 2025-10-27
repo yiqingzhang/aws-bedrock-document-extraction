@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0260.png",
+  "ground_truth": {
+    "invoice_no": "83684211",
+    "invoice_date": "06/19/2016",
+    "total_gross_worth": "$ 101,07",
+    "seller": "Lucas Inc 1477 Valerie Ridge Apt. 296 Clarkview, WY 27651",
+    "client": "Johnson Inc 78669 Edward Causeway West Nicole, ND 96674"
+  },
+  "extracted": {
+    "invoice_no": "83684211",
+    "invoice_date": "06/19/2016",
+    "total_gross_worth": "$ 101,07",
+    "seller": "Lucas Inc\n1477 Valerie Ridge Apt. 296\nClarkview, WY 27651",
+    "client": "Johnson Inc\n78669 Edward Causeway\nWest Nicole, ND 96674"
+  },
+  "processing_time": 3.81,
+  "success": true,
+  "timestamp": "2025-10-27T00:23:36.282556"
+}

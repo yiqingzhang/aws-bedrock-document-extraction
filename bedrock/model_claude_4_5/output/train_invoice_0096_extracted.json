@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0096.png",
+  "ground_truth": {
+    "invoice_no": "54350218",
+    "invoice_date": "07/29/2018",
+    "total_gross_worth": "$ 482,25",
+    "seller": "Lawrence LLC 90708 Cody Island Suite 930 Michaelton, PA 34086",
+    "client": "Richards, Pittman and Scott 52054 Lori Ridges Suite 314 East Angelaville, AK 95465"
+  },
+  "extracted": {
+    "invoice_no": "54350218",
+    "invoice_date": "07/29/2018",
+    "total_gross_worth": "$ 482,25",
+    "seller": "Lawrence LLC\n90708 Cody Island Suite 930\nMichaelton, PA 34086",
+    "client": "Richards, Pittman and Scott\n52054 Lori Ridges Suite 314\nEast Angelaville, AK 95465"
+  },
+  "processing_time": 6.02,
+  "success": true,
+  "timestamp": "2025-10-26T22:37:31.182053"
+}

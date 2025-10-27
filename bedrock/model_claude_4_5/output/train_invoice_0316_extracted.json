@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0316.png",
+  "ground_truth": {
+    "invoice_no": "15801054",
+    "invoice_date": "09/08/2015",
+    "total_gross_worth": "$ 270,94",
+    "seller": "Jones-Frazier 42477 Abbott Cove Lake Justin, DE 44689",
+    "client": "Byrd, Harper and Maddox 9110 Ochoa Lodge West Ryan, NE 61567"
+  },
+  "extracted": {
+    "invoice_no": "15801054",
+    "invoice_date": "09/08/2015",
+    "total_gross_worth": "$ 270,94",
+    "seller": "Jones-Frazier\n42477 Abbott Cove\nLake Justin, DE 44689",
+    "client": "Byrd, Harper and Maddox\n9110 Ochoa Lodge\nWest Ryan, NE 61567"
+  },
+  "processing_time": 5.53,
+  "success": true,
+  "timestamp": "2025-10-26T22:59:01.670273"
+}

@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0021.png",
+  "ground_truth": {
+    "invoice_no": "38829380",
+    "invoice_date": "12/25/2017",
+    "total_gross_worth": "18710,63",
+    "seller": "Cook LLC 05622 Williams Ridge Apt. 320 Smithside, NY 16757",
+    "client": "Meza, Griffin and Powell Unit 3668 Box 9888 DPO AA 15880"
+  },
+  "extracted": {
+    "invoice_no": "38829380",
+    "invoice_date": "12/25/2017",
+    "total_gross_worth": "$ 18 710,63",
+    "seller": "Cook LLC\n05622 Williams Ridge Apt. 320\nSmithside, NY 16757",
+    "client": "Meza, Griffin and Powell\nUnit 3668 Box 9888\nDPO AA 15880"
+  },
+  "processing_time": 6.1,
+  "success": true,
+  "timestamp": "2025-10-26T22:30:06.453991"
+}

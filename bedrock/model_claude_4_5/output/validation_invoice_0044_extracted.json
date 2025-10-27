@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/validation/invoice/invoice_0044.png",
+  "ground_truth": {
+    "invoice_no": "25687531",
+    "invoice_date": "01/10/2012",
+    "total_gross_worth": "$1237,50",
+    "seller": "Moore, Gallagher and Villanueva 908 Reed Garden Lake James, CO 74955",
+    "client": "Jones, Andrade and Roth 86208 Kathryn Extensions Suite 300 Mcmillanton, MD 03357"
+  },
+  "extracted": {
+    "invoice_no": "25687531",
+    "invoice_date": "01/10/2012",
+    "total_gross_worth": "$ 1 237,50",
+    "seller": "Moore, Gallagher and Villanueva\n908 Reed Garden\nLake James, CO 74955",
+    "client": "Jones, Andrade and Roth\n86208 Kathryn Extensions Suite 300\nMcmillanton, MD 03357"
+  },
+  "processing_time": 5.79,
+  "success": true,
+  "timestamp": "2025-10-26T23:14:13.667692"
+}

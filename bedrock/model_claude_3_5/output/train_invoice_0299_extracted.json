@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0299.png",
+  "ground_truth": {
+    "invoice_no": "72481334",
+    "invoice_date": "08/18/2013",
+    "total_gross_worth": "$1330,97",
+    "seller": "Bridges Inc 2761 Johnson Loaf Suite 806 Mikeland, DC 25765",
+    "client": "Fleming, Hopkins and Ward 48630 Marcus Stravenue Northjacobmouth, ME 89819"
+  },
+  "extracted": {
+    "invoice_no": "72481334",
+    "invoice_date": "08/18/2013",
+    "total_gross_worth": "$ 1,330.97",
+    "seller": "Bridges Inc\n2761 Johnson Loaf Suite 806\nMikeland, DC 25765",
+    "client": "Fleming, Hopkins and Ward\n48630 Marcus Stravenue\nNorth Jacobmouth, ME 89819"
+  },
+  "processing_time": 4.34,
+  "success": true,
+  "timestamp": "2025-10-27T00:26:36.503620"
+}

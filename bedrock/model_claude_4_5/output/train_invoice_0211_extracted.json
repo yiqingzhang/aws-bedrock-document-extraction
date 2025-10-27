@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0211.png",
+  "ground_truth": {
+    "invoice_no": "19852419",
+    "invoice_date": "12/11/2020",
+    "total_gross_worth": "$3139,95",
+    "seller": "Marsh-Baker 65449 Marshall Island Shawnborough, DE 70972",
+    "client": "Sanders and Sons 95913 Kerr Bypass Apt. 003 Cookton, DC 28347"
+  },
+  "extracted": {
+    "invoice_no": "19852419",
+    "invoice_date": "12/11/2020",
+    "total_gross_worth": "$ 3 139,95",
+    "seller": "Marsh-Baker\n65449 Marshall Island\nShawnborough, DE 70972",
+    "client": "Sanders and Sons\n95913 Kerr Bypass Apt. 003\nCookton, DC 28347"
+  },
+  "processing_time": 5.67,
+  "success": true,
+  "timestamp": "2025-10-26T22:48:45.367029"
+}

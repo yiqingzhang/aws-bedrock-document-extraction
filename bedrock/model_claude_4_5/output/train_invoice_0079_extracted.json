@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0079.png",
+  "ground_truth": {
+    "invoice_no": "79434652",
+    "invoice_date": "06/22/2013",
+    "total_gross_worth": "$ 231,12",
+    "seller": "Ware Group 879 Jones Haven Apt. 398 Port Gloria, TN 84764",
+    "client": "Keller Inc 801 Yolanda Gardens Apt. 613 New lanside, WV 53879"
+  },
+  "extracted": {
+    "invoice_no": "79434652",
+    "invoice_date": "06/22/2013",
+    "total_gross_worth": "$ 231,12",
+    "seller": "Ware Group\n879 Jones Haven Apt. 398\nPort Gloria, TN 84764",
+    "client": "Keller Inc\n801 Yolanda Gardens Apt. 613\nNew Ianside, WV 53879"
+  },
+  "processing_time": 5.62,
+  "success": true,
+  "timestamp": "2025-10-26T22:35:52.373708"
+}

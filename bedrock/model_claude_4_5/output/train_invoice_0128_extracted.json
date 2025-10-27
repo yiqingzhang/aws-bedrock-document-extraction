@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0128.png",
+  "ground_truth": {
+    "invoice_no": "Date",
+    "invoice_date": "03/23/2020",
+    "total_gross_worth": "$1369,50",
+    "seller": "Mcculough-Bradley 457 Vargas Brook Suite 967 East James, MA 63095",
+    "client": "Cross-Estrada 7297 Smith Roads Lake Sherri, TN 88469"
+  },
+  "extracted": {
+    "invoice_no": "40394912",
+    "invoice_date": "03/23/2020",
+    "total_gross_worth": "$ 1 369,50",
+    "seller": "Mccullough-Bradley\n457 Vargas Brook Suite 967\nEast James, MA 63095",
+    "client": "Cross-Estrada\n7297 Smith Roads\nLake Sherri, TN 88469"
+  },
+  "processing_time": 5.22,
+  "success": true,
+  "timestamp": "2025-10-26T22:40:32.904444"
+}

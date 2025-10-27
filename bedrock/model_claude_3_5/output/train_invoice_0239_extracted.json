@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0239.png",
+  "ground_truth": {
+    "invoice_no": "10299181",
+    "invoice_date": "04/13/2020",
+    "total_gross_worth": "$2858,84",
+    "seller": "Tran-Dunn 60465 Juan Haven Apt. 964 East Samuel, WI 61269",
+    "client": "Barber Inc 25260 Hood Knolls Apt. 321 New Luisside, OK 45681"
+  },
+  "extracted": {
+    "invoice_no": "10299181",
+    "invoice_date": "04/13/2020",
+    "total_gross_worth": "$ 2,858.84",
+    "seller": "Tran-Dunn\n60465 Juan Haven Apt. 964\nEast Samuel, WI 61269",
+    "client": "Barber Inc\n25260 Hood Knolls Apt. 321\nNew Luisside, OK 45681"
+  },
+  "processing_time": 4.64,
+  "success": true,
+  "timestamp": "2025-10-27T00:21:58.999684"
+}

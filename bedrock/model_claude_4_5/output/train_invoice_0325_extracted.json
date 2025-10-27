@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0325.png",
+  "ground_truth": {
+    "invoice_no": "62481750",
+    "invoice_date": "04/03/2014",
+    "total_gross_worth": "$ 661,64",
+    "seller": "Jones Ltd 708 Danny View Sharpmouth, KY 23544",
+    "client": "Pittman, Zhang and Peterson Unit 7456 Box 7407 DPO AP 42151"
+  },
+  "extracted": {
+    "invoice_no": "62481750",
+    "invoice_date": "04/03/2014",
+    "total_gross_worth": "$ 661,64",
+    "seller": "Jones Ltd\n708 Danny View\nSharpmouth, KY 23544",
+    "client": "Pittman, Zhang and Peterson\nUnit 7456 Box 7407\nDPO AP 42151"
+  },
+  "processing_time": 5.65,
+  "success": true,
+  "timestamp": "2025-10-26T22:59:52.252747"
+}

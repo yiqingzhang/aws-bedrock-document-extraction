@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0272.png",
+  "ground_truth": {
+    "invoice_no": "11442355",
+    "invoice_date": "01/31/2017",
+    "total_gross_worth": "$9,88",
+    "seller": "Mcdaniel, Newman and Williams 89817 Joseph Trail Port Carmen, KS 65014",
+    "client": "Williamson and Sons 7503 Kristine Streets Suite 823 Michelleland, AZ 02670"
+  },
+  "extracted": {
+    "invoice_no": "11442355",
+    "invoice_date": "01/31/2017",
+    "total_gross_worth": "$ 9,88",
+    "seller": "Mcdaniel, Newman and Williams\n89817 Joseph Trail\nPort Carmen, KS 65014",
+    "client": "Williamson and Sons\n7503 Kristine Streets Suite 823\nMichelleland, AZ 02670"
+  },
+  "processing_time": 5.25,
+  "success": true,
+  "timestamp": "2025-10-26T22:54:37.694248"
+}

@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0126.png",
+  "ground_truth": {
+    "invoice_no": "80918693",
+    "invoice_date": "06/19/2020",
+    "total_gross_worth": "$ 748,24",
+    "seller": "Charles-Parsons 52021 Austin Pike Chrisfurt, MN 19506",
+    "client": "Jacobs, Patterson and Church 95607 Sharon Walk Suite 213 Wustad, NC 65483"
+  },
+  "extracted": {
+    "invoice_no": "80918693",
+    "invoice_date": "06/19/2020",
+    "total_gross_worth": "$ 748,24",
+    "seller": "Charles-Parsons\n52021 Austin Pike\nChrisfurt, MN 19506",
+    "client": "Jacobs, Patterson and Church\n95607 Sharon Walk Suite 213\nWustad, NC 65483"
+  },
+  "processing_time": 4.37,
+  "success": true,
+  "timestamp": "2025-10-27T00:13:07.957383"
+}

@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0028.png",
+  "ground_truth": {
+    "invoice_no": "46775557",
+    "invoice_date": "04/05/2019",
+    "total_gross_worth": "$80,28",
+    "seller": "Roberts, Smith and Rogers 8415 Suarez Rapids Hicksfort, FL 60166",
+    "client": "Rose Ltd PSC 3715, Box 5395 APO AE 90242"
+  },
+  "extracted": {
+    "invoice_no": "46775557",
+    "invoice_date": "04/05/2019",
+    "total_gross_worth": "$ 80.28",
+    "seller": "Roberts, Smith and Rogers\n8415 Suarez Rapids\nHicksfort, FL 60166\nTax Id: 908-71-4639\nIBAN: GB30LTFL22480789312543",
+    "client": "Rose Ltd\nPSC 3715, Box 5395\nAPO AE 90242\nTax Id: 972-82-7727"
+  },
+  "processing_time": 5.36,
+  "success": true,
+  "timestamp": "2025-10-27T00:05:34.167457"
+}

@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0198.png",
+  "ground_truth": {
+    "invoice_no": "20583097",
+    "invoice_date": "09/16/2019",
+    "total_gross_worth": "$92 902,69",
+    "seller": "Gomez-Schwartz 085 Brooke Corner Amymouth, ID 21612",
+    "client": "Jones PLC 8860 Monica Avenue NorthJ Jason, OH 66558"
+  },
+  "extracted": {
+    "invoice_no": "20583097",
+    "invoice_date": "09/16/2019",
+    "total_gross_worth": "$ 92,902.69",
+    "seller": "Gomez-Schwartz\n085 Brooke Corner\nAmymouth, ID 21612",
+    "client": "Jones PLC\n8860 Monica Avenue\nNorth Jason, OH 66558"
+  },
+  "processing_time": 4.23,
+  "success": true,
+  "timestamp": "2025-10-27T00:18:48.224577"
+}

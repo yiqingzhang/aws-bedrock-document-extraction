@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0291.png",
+  "ground_truth": {
+    "invoice_no": "61965030",
+    "invoice_date": "10/11/2016",
+    "total_gross_worth": "$ 37,55",
+    "seller": "Rodriguez, Morales and Rogers 293 Jones Inlet North Hannahhaven, SC 16881",
+    "client": "Daniels-Farrell 034 Martin Curve East Thomasmouth, MT 23614"
+  },
+  "extracted": {
+    "invoice_no": "61965030",
+    "invoice_date": "10/11/2016",
+    "total_gross_worth": "$ 37.55",
+    "seller": "Rodriguez, Morales and Rogers\n293 Jones Inlet\nNorth Hannahhaven, SC 16881",
+    "client": "Daniels-Farrell\n034 Martin Curve\nEast Thomasmouth, MT 23614"
+  },
+  "processing_time": 3.92,
+  "success": true,
+  "timestamp": "2025-10-27T00:26:02.673646"
+}

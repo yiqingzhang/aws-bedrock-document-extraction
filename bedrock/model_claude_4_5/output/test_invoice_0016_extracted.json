@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/test/invoice/invoice_0016.png",
+  "ground_truth": {
+    "invoice_no": "23152691",
+    "invoice_date": "08/01/2015",
+    "total_gross_worth": "$4783,70",
+    "seller": "Whitaker Ltd 57724 Hall Flats Apt. 570 Robertsonstad, KS 16218",
+    "client": "Stout-Miller 80207 Samantha Streets Suite 926 Thomaschester, DE 30356"
+  },
+  "extracted": {
+    "invoice_no": "23152691",
+    "invoice_date": "08/01/2015",
+    "total_gross_worth": "$ 4 783,70",
+    "seller": "Whitaker Ltd\n57724 Hall Flats Apt. 570\nRobertsonstad, KS 16218",
+    "client": "Stout-Miller\n80207 Samantha Streets Suite 926\nThomaschester, DE 30356"
+  },
+  "processing_time": 6.13,
+  "success": true,
+  "timestamp": "2025-10-26T22:27:10.617844"
+}

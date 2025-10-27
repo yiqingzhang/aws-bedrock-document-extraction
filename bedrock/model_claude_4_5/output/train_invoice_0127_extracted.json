@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0127.png",
+  "ground_truth": {
+    "invoice_no": "83613779",
+    "invoice_date": "06/25/2014",
+    "total_gross_worth": "$ 897,52",
+    "seller": "Larson-Grant 524 Crystal Fall Suite 311 Montgomeryburg\", OR 70049",
+    "client": "Weiss, Beard and Ayala USNS Newman FPO AE 49491"
+  },
+  "extracted": {
+    "invoice_no": "83613779",
+    "invoice_date": "06/25/2014",
+    "total_gross_worth": "$ 897,52",
+    "seller": "Larson-Grant\n524 Crystal Fall Suite 311\nMontgomeryburgh, OR 70049",
+    "client": "Weiss, Beard and Ayala\nUSNS Newman\nFPO AE 49491"
+  },
+  "processing_time": 6.28,
+  "success": true,
+  "timestamp": "2025-10-26T22:40:27.673464"
+}

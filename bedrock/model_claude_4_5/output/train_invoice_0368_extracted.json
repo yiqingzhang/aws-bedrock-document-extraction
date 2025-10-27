@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0368.png",
+  "ground_truth": {
+    "invoice_no": "56967329",
+    "invoice_date": "05/18/2013",
+    "total_gross_worth": "$ 154,70",
+    "seller": "Phillips, Bennett and Flores 27081 Dylan Isle Apt. 292 Taylorberg, MA 52582",
+    "client": "Archer-Harper 80441 Morton Loaf Suite 313 West Amy, LA 37644"
+  },
+  "extracted": {
+    "invoice_no": "56967329",
+    "invoice_date": "05/18/2013",
+    "total_gross_worth": "$ 154,70",
+    "seller": "Phillips, Bennett and Flores\n27081 Dylan Isle Apt. 292\nTaylorberg, MA 52582",
+    "client": "Archer-Harper\n80441 Morton Loaf Suite 313\nWest Amy, LA 37644"
+  },
+  "processing_time": 5.72,
+  "success": true,
+  "timestamp": "2025-10-26T23:04:14.296505"
+}

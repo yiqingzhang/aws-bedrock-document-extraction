@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/test/invoice/invoice_0012.png",
+  "ground_truth": {
+    "invoice_no": "90508672",
+    "invoice_date": "04/16/2020",
+    "total_gross_worth": "$7052,49",
+    "seller": "Stone-Waller 53428 Peter Dale Apt. 293 Amberchester, IA 57427",
+    "client": "Shaw Group 58420 John Turnpike Suite 767 North Ricardo, NV 32611"
+  },
+  "extracted": {
+    "invoice_no": "90508672",
+    "invoice_date": "04/16/2020",
+    "total_gross_worth": "$ 7,052.49",
+    "seller": "Stone-Waller\n53428 Peter Dale Apt. 293\nAmberchester, IA 57427",
+    "client": "Shaw Group\n58420 John Turnpike Suite 767\nNorth Ricardo, NV 32611"
+  },
+  "processing_time": 4.24,
+  "success": true,
+  "timestamp": "2025-10-27T00:02:21.731227"
+}

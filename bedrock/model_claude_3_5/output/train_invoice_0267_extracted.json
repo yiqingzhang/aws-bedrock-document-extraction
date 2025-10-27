@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0267.png",
+  "ground_truth": {
+    "invoice_no": "35515944",
+    "invoice_date": "08/28/2014",
+    "total_gross_worth": "$1126,13",
+    "seller": "Schmidt-Alexander USCGC Berg FPO AA 74352",
+    "client": "Brown Ltd 3152 Brady Ways Apt. 859 South Sharonstad, OR 79299"
+  },
+  "extracted": {
+    "invoice_no": "35515944",
+    "invoice_date": "08/28/2014",
+    "total_gross_worth": "$ 1126,13",
+    "seller": "Schmidt-Alexander\nUSCGC Berg\nFPO AA 74352\nTax Id: 917-86-0643\nIBAN: GB78WKRM61075683915613",
+    "client": "Brown Ltd\n3152 Brady Ways Apt. 859\nSouth Sharonstad, OR 79299\nTax Id: 921-99-3546"
+  },
+  "processing_time": 5.33,
+  "success": true,
+  "timestamp": "2025-10-27T00:24:09.024733"
+}

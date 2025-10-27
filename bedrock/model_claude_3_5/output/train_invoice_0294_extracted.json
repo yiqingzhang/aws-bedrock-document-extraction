@@ -1,0 +1,20 @@
+{
+  "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0294.png",
+  "ground_truth": {
+    "invoice_no": "89559338",
+    "invoice_date": "05/16/2012",
+    "total_gross_worth": "$3002,98",
+    "seller": "Henderson-Diaz 90336 Reynolds Inlet Apt. 223 West Tammy, WI 40412",
+    "client": "Arroyo-Fletcher 3529 Harris Plains Suite 975 Richardfurt, NV 89323"
+  },
+  "extracted": {
+    "invoice_no": "89559338",
+    "invoice_date": "05/16/2012",
+    "total_gross_worth": "$ 3 002,98",
+    "seller": "Henderson-Diaz\n90336 Reynolds Inlet Apt. 223\nWest Tammy, WI 40412",
+    "client": "Arroyo-Fletcher\n3529 Harris Plains Suite 975\nRichardfurt, NV 89323"
+  },
+  "processing_time": 4.34,
+  "success": true,
+  "timestamp": "2025-10-27T00:26:15.313572"
+}

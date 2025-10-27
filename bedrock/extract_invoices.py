@@ -106,6 +106,10 @@ class InvoiceExtractor:
         """
         Load ground truth data from label JSON file.
         
+        Supports two data structures:
+        1. Nested structure: fields in gt_parse.header and gt_parse.summary
+        2. Flat structure: fields directly in gt_parse
+        
         NOTE: This data is only for evaluation - it is NOT sent to the model!
         
         Args:
@@ -118,18 +122,31 @@ class InvoiceExtractor:
             with open(label_path, 'r', encoding='utf-8') as f:
                 label_data = json.load(f)
             
-            # Extract the 5 fields we're interested in from gt_parse structure
             gt_parse = label_data.get('gt_parse', {})
-            header = gt_parse.get('header', {})
-            summary = gt_parse.get('summary', {})
             
-            ground_truth = {
-                'invoice_no': header.get('invoice_no', ''),
-                'invoice_date': header.get('invoice_date', ''),
-                'total_gross_worth': summary.get('total_gross_worth', ''),
-                'seller': header.get('seller', ''),
-                'client': header.get('client', '')
-            }
+            # Reason: Handle both flat and nested ground truth structures
+            # Try nested structure first (with header and summary)
+            if 'header' in gt_parse and 'summary' in gt_parse:
+                # Nested structure: extract from header and summary sections
+                header = gt_parse.get('header', {})
+                summary = gt_parse.get('summary', {})
+                
+                ground_truth = {
+                    'invoice_no': header.get('invoice_no', ''),
+                    'invoice_date': header.get('invoice_date', ''),
+                    'total_gross_worth': summary.get('total_gross_worth', ''),
+                    'seller': header.get('seller', ''),
+                    'client': header.get('client', '')
+                }
+            else:
+                # Flat structure: fields directly in gt_parse
+                ground_truth = {
+                    'invoice_no': gt_parse.get('invoice_no', ''),
+                    'invoice_date': gt_parse.get('invoice_date', ''),
+                    'total_gross_worth': gt_parse.get('total_gross_worth', ''),
+                    'seller': gt_parse.get('seller', ''),
+                    'client': gt_parse.get('client', '')
+                }
             
             return ground_truth
             

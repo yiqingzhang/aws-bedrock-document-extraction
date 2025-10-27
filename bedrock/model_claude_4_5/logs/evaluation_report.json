@@ -15,9 +15,9 @@
         "accuracy": 0.98
       },
       "total_gross_worth": {
-        "correct": 439,
+        "correct": 484,
         "total": 501,
-        "accuracy": 0.8762
+        "accuracy": 0.9661
       },
       "seller": {
         "correct": 466,
@@ -31,11 +31,11 @@
       }
     },
     "overall_accuracy": {
-      "correct": 411,
+      "correct": 452,
       "total": 501,
-      "accuracy": 0.8204
+      "accuracy": 0.9022
     },
-    "evaluation_timestamp": "2025-10-27T12:34:13.591542"
+    "evaluation_timestamp": "2025-10-27T22:44:13.244839"
   },
   "detailed_results": [
     {
@@ -239,7 +239,7 @@
       "field_matches": {
         "invoice_no": true,
         "invoice_date": true,
-        "total_gross_worth": false,
+        "total_gross_worth": true,
         "seller": true,
         "client": true
       },
@@ -257,7 +257,7 @@
         "total_gross_worth": {
           "ground_truth": "48 801,10",
           "extracted": "$ 48 801,10",
-          "match": false
+          "match": true
         },
         "seller": {
           "ground_truth": "Kaiser, Hays and Cook 460 Richard Forge Lake Maria, CA 86826",
@@ -270,7 +270,7 @@
           "match": true
         }
       },
-      "all_correct": false
+      "all_correct": true
     },
     {
       "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/test/invoice/invoice_0006.png",
@@ -629,7 +629,7 @@
       "field_matches": {
         "invoice_no": true,
         "invoice_date": true,
-        "total_gross_worth": false,
+        "total_gross_worth": true,
         "seller": true,
         "client": true
       },
@@ -647,7 +647,7 @@
         "total_gross_worth": {
           "ground_truth": "$ 43,96",
           "extracted": "$ 43.96",
-          "match": false
+          "match": true
         },
         "seller": {
           "ground_truth": "Spence-Castro 547 Reynolds Trafficway Suite 938 Joshuabury, RI 79742",
@@ -660,7 +660,7 @@
           "match": true
         }
       },
-      "all_correct": false
+      "all_correct": true
     },
     {
       "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/test/invoice/invoice_0016.png",
@@ -1097,7 +1097,7 @@
       "field_matches": {
         "invoice_no": true,
         "invoice_date": true,
-        "total_gross_worth": false,
+        "total_gross_worth": true,
         "seller": true,
         "client": true
       },
@@ -1115,7 +1115,7 @@
         "total_gross_worth": {
           "ground_truth": "$ 212,09",
           "extracted": "$ 212.09",
-          "match": false
+          "match": true
         },
         "seller": {
           "ground_truth": "Chapman, Kim and Green 64731 James Branch Smithmouth, NC 26872",
@@ -1128,7 +1128,7 @@
           "match": true
         }
       },
-      "all_correct": false
+      "all_correct": true
     },
     {
       "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0002.png",
@@ -1253,7 +1253,7 @@
       "field_matches": {
         "invoice_no": true,
         "invoice_date": true,
-        "total_gross_worth": false,
+        "total_gross_worth": true,
         "seller": true,
         "client": true
       },
@@ -1271,7 +1271,7 @@
         "total_gross_worth": {
           "ground_truth": "214,41",
           "extracted": "$ 214,41",
-          "match": false
+          "match": true
         },
         "seller": {
           "ground_truth": "Zuniga and Sons 455 Jones Trace Suite 479 Port Sarah, NM 29233",
@@ -1284,7 +1284,7 @@
           "match": true
         }
       },
-      "all_correct": false
+      "all_correct": true
     },
     {
       "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0006.png",
@@ -1370,7 +1370,7 @@
       "field_matches": {
         "invoice_no": false,
         "invoice_date": true,
-        "total_gross_worth": false,
+        "total_gross_worth": true,
         "seller": true,
         "client": true
       },
@@ -1388,7 +1388,7 @@
         "total_gross_worth": {
           "ground_truth": "131,98",
           "extracted": "$ 131,98",
-          "match": false
+          "match": true
         },
         "seller": {
           "ground_truth": "Moore Ltd USNV Thompson FPO AE 33047",
@@ -1877,7 +1877,7 @@
       "field_matches": {
         "invoice_no": true,
         "invoice_date": true,
-        "total_gross_worth": false,
+        "total_gross_worth": true,
         "seller": true,
         "client": true
       },
@@ -1895,7 +1895,7 @@
         "total_gross_worth": {
           "ground_truth": "18710,63",
           "extracted": "$ 18 710,63",
-          "match": false
+          "match": true
         },
         "seller": {
           "ground_truth": "Cook LLC 05622 Williams Ridge Apt. 320 Smithside, NY 16757",
@@ -1908,7 +1908,7 @@
           "match": true
         }
       },
-      "all_correct": false
+      "all_correct": true
     },
     {
       "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0022.png",
@@ -1955,7 +1955,7 @@
       "field_matches": {
         "invoice_no": true,
         "invoice_date": true,
-        "total_gross_worth": false,
+        "total_gross_worth": true,
         "seller": true,
         "client": true
       },
@@ -1973,7 +1973,7 @@
         "total_gross_worth": {
           "ground_truth": "228,68",
           "extracted": "$ 228,68",
-          "match": false
+          "match": true
         },
         "seller": {
           "ground_truth": "Clark PLC 3577 John Glen Suite 454 North Michaelborough, NE 70613",
@@ -1986,7 +1986,7 @@
           "match": true
         }
       },
-      "all_correct": false
+      "all_correct": true
     },
     {
       "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0024.png",
@@ -2072,7 +2072,7 @@
       "field_matches": {
         "invoice_no": true,
         "invoice_date": true,
-        "total_gross_worth": false,
+        "total_gross_worth": true,
         "seller": true,
         "client": true
       },
@@ -2090,7 +2090,7 @@
         "total_gross_worth": {
           "ground_truth": "$ 131,94",
           "extracted": "$ 131.94",
-          "match": false
+          "match": true
         },
         "seller": {
           "ground_truth": "Mendoza Group 40007 Brown Creek South Meredithburgh, ND 48117",
@@ -2103,7 +2103,7 @@
           "match": true
         }
       },
-      "all_correct": false
+      "all_correct": true
     },
     {
       "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0027.png",
@@ -3047,7 +3047,7 @@
       "field_matches": {
         "invoice_no": true,
         "invoice_date": true,
-        "total_gross_worth": false,
+        "total_gross_worth": true,
         "seller": true,
         "client": true
       },
@@ -3065,7 +3065,7 @@
         "total_gross_worth": {
           "ground_truth": "$ 87,96",
           "extracted": "$ 87.96",
-          "match": false
+          "match": true
         },
         "seller": {
           "ground_truth": "Wade, Scott and Glover 9022 Jeffrey Course Apt. 247 Tylershire, DC 71720",
@@ -3078,7 +3078,7 @@
           "match": true
         }
       },
-      "all_correct": false
+      "all_correct": true
     },
     {
       "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0052.png",
@@ -3515,7 +3515,7 @@
       "field_matches": {
         "invoice_no": true,
         "invoice_date": true,
-        "total_gross_worth": false,
+        "total_gross_worth": true,
         "seller": true,
         "client": true
       },
@@ -3533,7 +3533,7 @@
         "total_gross_worth": {
           "ground_truth": "$ 10,99",
           "extracted": "$ 10.99",
-          "match": false
+          "match": true
         },
         "seller": {
           "ground_truth": "Watson-Harris 2272 Elizabeth Rue Port Melissa, NY 40256",
@@ -3546,7 +3546,7 @@
           "match": true
         }
       },
-      "all_correct": false
+      "all_correct": true
     },
     {
       "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0064.png",
@@ -3983,7 +3983,7 @@
       "field_matches": {
         "invoice_no": true,
         "invoice_date": true,
-        "total_gross_worth": false,
+        "total_gross_worth": true,
         "seller": true,
         "client": true
       },
@@ -4001,7 +4001,7 @@
         "total_gross_worth": {
           "ground_truth": "174,65",
           "extracted": "$ 174,65",
-          "match": false
+          "match": true
         },
         "seller": {
           "ground_truth": "Montoya PLC 57965 Roach Course Suite 288 Lake Matthew, WY 35612",
@@ -4014,7 +4014,7 @@
           "match": true
         }
       },
-      "all_correct": false
+      "all_correct": true
     },
     {
       "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0076.png",
@@ -4256,7 +4256,7 @@
       "field_matches": {
         "invoice_no": true,
         "invoice_date": true,
-        "total_gross_worth": false,
+        "total_gross_worth": true,
         "seller": true,
         "client": true
       },
@@ -4274,7 +4274,7 @@
         "total_gross_worth": {
           "ground_truth": "$ 257,19",
           "extracted": "$ 257.19",
-          "match": false
+          "match": true
         },
         "seller": {
           "ground_truth": "White PLC 26881 Gregory Loaf Suite 262 Frenchmouth, AL 15024",
@@ -4287,7 +4287,7 @@
           "match": true
         }
       },
-      "all_correct": false
+      "all_correct": true
     },
     {
       "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0083.png",
@@ -4919,7 +4919,7 @@
       "field_matches": {
         "invoice_no": true,
         "invoice_date": true,
-        "total_gross_worth": false,
+        "total_gross_worth": true,
         "seller": true,
         "client": true
       },
@@ -4937,7 +4937,7 @@
         "total_gross_worth": {
           "ground_truth": "675,46",
           "extracted": "$ 675,46",
-          "match": false
+          "match": true
         },
         "seller": {
           "ground_truth": "Harris Ltd 695 Oliver Ways Suite 386 Dawnstad, DC 17193",
@@ -4950,7 +4950,7 @@
           "match": true
         }
       },
-      "all_correct": false
+      "all_correct": true
     },
     {
       "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0100.png",
@@ -5036,7 +5036,7 @@
       "field_matches": {
         "invoice_no": true,
         "invoice_date": true,
-        "total_gross_worth": false,
+        "total_gross_worth": true,
         "seller": true,
         "client": true
       },
@@ -5054,7 +5054,7 @@
         "total_gross_worth": {
           "ground_truth": "$ 176,00",
           "extracted": "$ 176.00",
-          "match": false
+          "match": true
         },
         "seller": {
           "ground_truth": "Lowery LLC 90317 Michael Flats Suite 502 East Lisaville, DC 67918",
@@ -5067,7 +5067,7 @@
           "match": true
         }
       },
-      "all_correct": false
+      "all_correct": true
     },
     {
       "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0103.png",
@@ -5270,7 +5270,7 @@
       "field_matches": {
         "invoice_no": true,
         "invoice_date": true,
-        "total_gross_worth": false,
+        "total_gross_worth": true,
         "seller": true,
         "client": true
       },
@@ -5288,7 +5288,7 @@
         "total_gross_worth": {
           "ground_truth": "303,29",
           "extracted": "$ 303,29",
-          "match": false
+          "match": true
         },
         "seller": {
           "ground_truth": "Jones-Flores 4168 Jason Stravenue Suite 306 Lorimouth, MO 13585",
@@ -5301,7 +5301,7 @@
           "match": true
         }
       },
-      "all_correct": false
+      "all_correct": true
     },
     {
       "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0109.png",
@@ -5465,7 +5465,7 @@
       "field_matches": {
         "invoice_no": true,
         "invoice_date": true,
-        "total_gross_worth": false,
+        "total_gross_worth": true,
         "seller": true,
         "client": true
       },
@@ -5483,7 +5483,7 @@
         "total_gross_worth": {
           "ground_truth": "48 517,63",
           "extracted": "$ 48 517,63",
-          "match": false
+          "match": true
         },
         "seller": {
           "ground_truth": "Vargas, Miller and Miller 0714 Michele Springs Mendozabury, HI 51398",
@@ -5496,7 +5496,7 @@
           "match": true
         }
       },
-      "all_correct": false
+      "all_correct": true
     },
     {
       "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0114.png",
@@ -5582,7 +5582,7 @@
       "field_matches": {
         "invoice_no": true,
         "invoice_date": true,
-        "total_gross_worth": false,
+        "total_gross_worth": true,
         "seller": true,
         "client": false
       },
@@ -5600,7 +5600,7 @@
         "total_gross_worth": {
           "ground_truth": "$ 549,98",
           "extracted": "$ 549.98",
-          "match": false
+          "match": true
         },
         "seller": {
           "ground_truth": "Clark and Sons 678 Sonya Shores Port Christophershire, ND 03997",
@@ -5699,7 +5699,7 @@
       "field_matches": {
         "invoice_no": true,
         "invoice_date": true,
-        "total_gross_worth": false,
+        "total_gross_worth": true,
         "seller": true,
         "client": true
       },
@@ -5717,7 +5717,7 @@
         "total_gross_worth": {
           "ground_truth": "$ 395,96",
           "extracted": "$ 395.96",
-          "match": false
+          "match": true
         },
         "seller": {
           "ground_truth": "Keith LLC 02821 Baker Vista Hunttown, AL 18759",
@@ -5730,7 +5730,7 @@
           "match": true
         }
       },
-      "all_correct": false
+      "all_correct": true
     },
     {
       "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0120.png",
@@ -6362,7 +6362,7 @@
       "field_matches": {
         "invoice_no": true,
         "invoice_date": true,
-        "total_gross_worth": false,
+        "total_gross_worth": true,
         "seller": true,
         "client": true
       },
@@ -6380,7 +6380,7 @@
         "total_gross_worth": {
           "ground_truth": "$ 10,99",
           "extracted": "$ 10.99",
-          "match": false
+          "match": true
         },
         "seller": {
           "ground_truth": "Baker-Wagner 909 Duarte Drive Apt. 874 Joelfort, NH 24372",
@@ -6393,7 +6393,7 @@
           "match": true
         }
       },
-      "all_correct": false
+      "all_correct": true
     },
     {
       "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0137.png",
@@ -7922,7 +7922,7 @@
       "field_matches": {
         "invoice_no": true,
         "invoice_date": true,
-        "total_gross_worth": false,
+        "total_gross_worth": true,
         "seller": true,
         "client": true
       },
@@ -7940,7 +7940,7 @@
         "total_gross_worth": {
           "ground_truth": "11880,00",
           "extracted": "$ 11 880,00",
-          "match": false
+          "match": true
         },
         "seller": {
           "ground_truth": "Hughes-jones 565 Michael Cape Apt. 347 Port Brianside, DE 28251",
@@ -7953,7 +7953,7 @@
           "match": true
         }
       },
-      "all_correct": false
+      "all_correct": true
     },
     {
       "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0177.png",
@@ -7961,7 +7961,7 @@
       "field_matches": {
         "invoice_no": true,
         "invoice_date": true,
-        "total_gross_worth": false,
+        "total_gross_worth": true,
         "seller": true,
         "client": true
       },
@@ -7979,7 +7979,7 @@
         "total_gross_worth": {
           "ground_truth": "422,55",
           "extracted": "$ 422,55",
-          "match": false
+          "match": true
         },
         "seller": {
           "ground_truth": "Henry Inc 8786 Mcgee Junctions Suite 614 Port Peggy, VT 29244",
@@ -7992,7 +7992,7 @@
           "match": true
         }
       },
-      "all_correct": false
+      "all_correct": true
     },
     {
       "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0178.png",
@@ -8039,7 +8039,7 @@
       "field_matches": {
         "invoice_no": true,
         "invoice_date": true,
-        "total_gross_worth": false,
+        "total_gross_worth": true,
         "seller": true,
         "client": true
       },
@@ -8057,7 +8057,7 @@
         "total_gross_worth": {
           "ground_truth": "686,75",
           "extracted": "$ 686,75",
-          "match": false
+          "match": true
         },
         "seller": {
           "ground_truth": "Cruz-Rice 7462 Gregory Bridge Suite 646 Cummingsland, OR 77232",
@@ -8070,7 +8070,7 @@
           "match": true
         }
       },
-      "all_correct": false
+      "all_correct": true
     },
     {
       "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0180.png",
@@ -8195,7 +8195,7 @@
       "field_matches": {
         "invoice_no": true,
         "invoice_date": true,
-        "total_gross_worth": false,
+        "total_gross_worth": true,
         "seller": true,
         "client": true
       },
@@ -8213,7 +8213,7 @@
         "total_gross_worth": {
           "ground_truth": "274,88",
           "extracted": "$ 274,88",
-          "match": false
+          "match": true
         },
         "seller": {
           "ground_truth": "Huber, Graves and Jensen 0892 Campbell Stravenue Apt. 005 Chapmanfort, WV 88694",
@@ -8226,7 +8226,7 @@
           "match": true
         }
       },
-      "all_correct": false
+      "all_correct": true
     },
     {
       "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0184.png",
@@ -9482,7 +9482,7 @@
       "field_matches": {
         "invoice_no": true,
         "invoice_date": true,
-        "total_gross_worth": false,
+        "total_gross_worth": true,
         "seller": true,
         "client": true
       },
@@ -9500,7 +9500,7 @@
         "total_gross_worth": {
           "ground_truth": "$ 43,96",
           "extracted": "$ 43.96",
-          "match": false
+          "match": true
         },
         "seller": {
           "ground_truth": "Franklin PLC 539 Garcia Landing Michelleside, UT 75504",
@@ -9513,7 +9513,7 @@
           "match": true
         }
       },
-      "all_correct": false
+      "all_correct": true
     },
     {
       "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0217.png",
@@ -9794,7 +9794,7 @@
       "field_matches": {
         "invoice_no": true,
         "invoice_date": true,
-        "total_gross_worth": false,
+        "total_gross_worth": true,
         "seller": true,
         "client": true
       },
@@ -9812,7 +9812,7 @@
         "total_gross_worth": {
           "ground_truth": "$ 82,49",
           "extracted": "$ 82.49",
-          "match": false
+          "match": true
         },
         "seller": {
           "ground_truth": "Franklin, Buchanan and Reed 61217 Smith Mall Suite 690 Seanberg, DE 85994",
@@ -9825,7 +9825,7 @@
           "match": true
         }
       },
-      "all_correct": false
+      "all_correct": true
     },
     {
       "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0225.png",
@@ -11432,7 +11432,7 @@
       "field_matches": {
         "invoice_no": true,
         "invoice_date": true,
-        "total_gross_worth": false,
+        "total_gross_worth": true,
         "seller": true,
         "client": true
       },
@@ -11450,7 +11450,7 @@
         "total_gross_worth": {
           "ground_truth": "$ 572,00",
           "extracted": "$ 572.00",
-          "match": false
+          "match": true
         },
         "seller": {
           "ground_truth": "Clay PLC 83230 Crystal Circles Apt. 821 Hicksbury, IN 99247",
@@ -11463,7 +11463,7 @@
           "match": true
         }
       },
-      "all_correct": false
+      "all_correct": true
     },
     {
       "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0267.png",
@@ -11705,7 +11705,7 @@
       "field_matches": {
         "invoice_no": true,
         "invoice_date": true,
-        "total_gross_worth": false,
+        "total_gross_worth": true,
         "seller": true,
         "client": true
       },
@@ -11723,7 +11723,7 @@
         "total_gross_worth": {
           "ground_truth": "816,49",
           "extracted": "$ 816,49",
-          "match": false
+          "match": true
         },
         "seller": {
           "ground_truth": "Arnold, Holder and Armstrong 9156 Wiggins Curve Apt. 376 Martinezfort, OH 31078",
@@ -11736,7 +11736,7 @@
           "match": true
         }
       },
-      "all_correct": false
+      "all_correct": true
     },
     {
       "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0274.png",
@@ -12641,7 +12641,7 @@
       "field_matches": {
         "invoice_no": true,
         "invoice_date": true,
-        "total_gross_worth": false,
+        "total_gross_worth": true,
         "seller": true,
         "client": true
       },
@@ -12659,7 +12659,7 @@
         "total_gross_worth": {
           "ground_truth": "$ 329,91",
           "extracted": "$ 329.91",
-          "match": false
+          "match": true
         },
         "seller": {
           "ground_truth": "Harrison-Pierce 6524 David Squares Apt. 694 West Scott, IL 54611",
@@ -12672,7 +12672,7 @@
           "match": true
         }
       },
-      "all_correct": false
+      "all_correct": true
     },
     {
       "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0298.png",
@@ -12758,7 +12758,7 @@
       "field_matches": {
         "invoice_no": true,
         "invoice_date": true,
-        "total_gross_worth": false,
+        "total_gross_worth": true,
         "seller": true,
         "client": true
       },
@@ -12776,7 +12776,7 @@
         "total_gross_worth": {
           "ground_truth": "$ 428,83",
           "extracted": "$ 428.83",
-          "match": false
+          "match": true
         },
         "seller": {
           "ground_truth": "Kramer, Harris and Martinez 53014 Michelle Dale South Rogerland, NC 21168",
@@ -12789,7 +12789,7 @@
           "match": true
         }
       },
-      "all_correct": false
+      "all_correct": true
     },
     {
       "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0301.png",
@@ -13070,7 +13070,7 @@
       "field_matches": {
         "invoice_no": true,
         "invoice_date": true,
-        "total_gross_worth": false,
+        "total_gross_worth": true,
         "seller": true,
         "client": true
       },
@@ -13088,7 +13088,7 @@
         "total_gross_worth": {
           "ground_truth": "$ 130,84",
           "extracted": "$ 130.84",
-          "match": false
+          "match": true
         },
         "seller": {
           "ground_truth": "Sanchez Inc 6392 Adrian Parkway Murphyborough, OK 01882",
@@ -13101,7 +13101,7 @@
           "match": true
         }
       },
-      "all_correct": false
+      "all_correct": true
     },
     {
       "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0309.png",
@@ -13148,7 +13148,7 @@
       "field_matches": {
         "invoice_no": true,
         "invoice_date": true,
-        "total_gross_worth": false,
+        "total_gross_worth": true,
         "seller": true,
         "client": true
       },
@@ -13166,7 +13166,7 @@
         "total_gross_worth": {
           "ground_truth": "646,80",
           "extracted": "$ 646,80",
-          "match": false
+          "match": true
         },
         "seller": {
           "ground_truth": "Martinez LLC 11801 Anthony Hollow Suite 016 Michaeltown, WI 87779",
@@ -13179,7 +13179,7 @@
           "match": true
         }
       },
-      "all_correct": false
+      "all_correct": true
     },
     {
       "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0311.png",
@@ -13421,7 +13421,7 @@
       "field_matches": {
         "invoice_no": true,
         "invoice_date": true,
-        "total_gross_worth": false,
+        "total_gross_worth": true,
         "seller": false,
         "client": true
       },
@@ -13439,7 +13439,7 @@
         "total_gross_worth": {
           "ground_truth": "$1319,96",
           "extracted": "$ 1 319.96",
-          "match": false
+          "match": true
         },
         "seller": {
           "ground_truth": "Webb-Short 35094 Wright Club Steinstad, TN 57511",
@@ -13889,7 +13889,7 @@
       "field_matches": {
         "invoice_no": true,
         "invoice_date": true,
-        "total_gross_worth": false,
+        "total_gross_worth": true,
         "seller": true,
         "client": true
       },
@@ -13907,7 +13907,7 @@
         "total_gross_worth": {
           "ground_truth": "$ 428,35",
           "extracted": "$ 428.35",
-          "match": false
+          "match": true
         },
         "seller": {
           "ground_truth": "Dickerson-Burgess 6625 Scott Club Suite 247 East Dannyville, VT 74376",
@@ -13920,7 +13920,7 @@
           "match": true
         }
       },
-      "all_correct": false
+      "all_correct": true
     },
     {
       "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0330.png",
@@ -14084,7 +14084,7 @@
       "field_matches": {
         "invoice_no": true,
         "invoice_date": true,
-        "total_gross_worth": false,
+        "total_gross_worth": true,
         "seller": true,
         "client": true
       },
@@ -14102,7 +14102,7 @@
         "total_gross_worth": {
           "ground_truth": "819,06",
           "extracted": "$ 819,06",
-          "match": false
+          "match": true
         },
         "seller": {
           "ground_truth": "Reyes, Holloway and Lee 38676 Johnson Burg Suite 666 West Rebeccamouth, SD 02588",
@@ -14115,7 +14115,7 @@
           "match": true
         }
       },
-      "all_correct": false
+      "all_correct": true
     },
     {
       "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0335.png",
@@ -15254,7 +15254,7 @@
       "field_matches": {
         "invoice_no": true,
         "invoice_date": true,
-        "total_gross_worth": false,
+        "total_gross_worth": true,
         "seller": true,
         "client": true
       },
@@ -15272,7 +15272,7 @@
         "total_gross_worth": {
           "ground_truth": "$ 324,50",
           "extracted": "$ 324.50",
-          "match": false
+          "match": true
         },
         "seller": {
           "ground_truth": "Dawson-Strickland 460 Turner Loop North Williamtown, OR 35075",
@@ -15285,7 +15285,7 @@
           "match": true
         }
       },
-      "all_correct": false
+      "all_correct": true
     },
     {
       "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0365.png",
@@ -15605,7 +15605,7 @@
       "field_matches": {
         "invoice_no": true,
         "invoice_date": true,
-        "total_gross_worth": false,
+        "total_gross_worth": true,
         "seller": true,
         "client": true
       },
@@ -15623,7 +15623,7 @@
         "total_gross_worth": {
           "ground_truth": "$ 32,83",
           "extracted": "$ 32.83",
-          "match": false
+          "match": true
         },
         "seller": {
           "ground_truth": "Weaver Ltd 377 Haynes Spring Chelseaton, AZ 47350",
@@ -15636,7 +15636,7 @@
           "match": true
         }
       },
-      "all_correct": false
+      "all_correct": true
     },
     {
       "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0374.png",
@@ -15683,7 +15683,7 @@
       "field_matches": {
         "invoice_no": true,
         "invoice_date": true,
-        "total_gross_worth": false,
+        "total_gross_worth": true,
         "seller": true,
         "client": true
       },
@@ -15701,7 +15701,7 @@
         "total_gross_worth": {
           "ground_truth": "394,19",
           "extracted": "$ 394,19",
-          "match": false
+          "match": true
         },
         "seller": {
           "ground_truth": "Armstrong Inc 9547 Samuel Cliffs Samuelchester, CO 34580",
@@ -15714,7 +15714,7 @@
           "match": true
         }
       },
-      "all_correct": false
+      "all_correct": true
     },
     {
       "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0376.png",
@@ -16619,7 +16619,7 @@
       "field_matches": {
         "invoice_no": true,
         "invoice_date": true,
-        "total_gross_worth": false,
+        "total_gross_worth": true,
         "seller": true,
         "client": true
       },
@@ -16637,7 +16637,7 @@
         "total_gross_worth": {
           "ground_truth": "415,61",
           "extracted": "$ 415,61",
-          "match": false
+          "match": true
         },
         "seller": {
           "ground_truth": "Blair Ltd 63031 Tracy Row Suite 600 North Justin, DC 18190",
@@ -16650,7 +16650,7 @@
           "match": true
         }
       },
-      "all_correct": false
+      "all_correct": true
     },
     {
       "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0400.png",
@@ -16697,7 +16697,7 @@
       "field_matches": {
         "invoice_no": true,
         "invoice_date": true,
-        "total_gross_worth": false,
+        "total_gross_worth": true,
         "seller": true,
         "client": true
       },
@@ -16715,7 +16715,7 @@
         "total_gross_worth": {
           "ground_truth": "$ 142,99",
           "extracted": "$ 142.99",
-          "match": false
+          "match": true
         },
         "seller": {
           "ground_truth": "Grant Inc 2941 Rachel Mill Suite 264 Nicoletown, NV 65935",
@@ -16728,7 +16728,7 @@
           "match": true
         }
       },
-      "all_correct": false
+      "all_correct": true
     },
     {
       "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/train/invoice/invoice_0402.png",
@@ -17906,7 +17906,7 @@
       "field_matches": {
         "invoice_no": true,
         "invoice_date": true,
-        "total_gross_worth": false,
+        "total_gross_worth": true,
         "seller": true,
         "client": true
       },
@@ -17924,7 +17924,7 @@
         "total_gross_worth": {
           "ground_truth": "978,64",
           "extracted": "$ 978,64",
-          "match": false
+          "match": true
         },
         "seller": {
           "ground_truth": "Gibson Ltd 92975 Scott Mount Lake Laurentown, ND 29361",
@@ -17937,7 +17937,7 @@
           "match": true
         }
       },
-      "all_correct": false
+      "all_correct": true
     },
     {
       "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/validation/invoice/invoice_0008.png",
@@ -18023,7 +18023,7 @@
       "field_matches": {
         "invoice_no": true,
         "invoice_date": true,
-        "total_gross_worth": false,
+        "total_gross_worth": true,
         "seller": false,
         "client": true
       },
@@ -18041,7 +18041,7 @@
         "total_gross_worth": {
           "ground_truth": "$ 328,83",
           "extracted": "$ 328.83",
-          "match": false
+          "match": true
         },
         "seller": {
           "ground_truth": "Dunn-Campbel. 36709 Santiago Viaduct Dianaland, MN 12512",
@@ -18257,7 +18257,7 @@
       "field_matches": {
         "invoice_no": true,
         "invoice_date": true,
-        "total_gross_worth": false,
+        "total_gross_worth": true,
         "seller": true,
         "client": true
       },
@@ -18275,7 +18275,7 @@
         "total_gross_worth": {
           "ground_truth": "628,00",
           "extracted": "$ 628,00",
-          "match": false
+          "match": true
         },
         "seller": {
           "ground_truth": "Crawford-Byrd PSC 3342, Box 5976 APO AA 60940",
@@ -18288,7 +18288,7 @@
           "match": true
         }
       },
-      "all_correct": false
+      "all_correct": true
     },
     {
       "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/validation/invoice/invoice_0017.png",
@@ -18335,7 +18335,7 @@
       "field_matches": {
         "invoice_no": true,
         "invoice_date": true,
-        "total_gross_worth": false,
+        "total_gross_worth": true,
         "seller": true,
         "client": true
       },
@@ -18353,7 +18353,7 @@
         "total_gross_worth": {
           "ground_truth": "$ 296,91",
           "extracted": "$ 296.91",
-          "match": false
+          "match": true
         },
         "seller": {
           "ground_truth": "Soto and Sons 733 Walker Wells South Grace, AL 58131",
@@ -18366,7 +18366,7 @@
           "match": true
         }
       },
-      "all_correct": false
+      "all_correct": true
     },
     {
       "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/validation/invoice/invoice_0019.png",
@@ -19232,7 +19232,7 @@
       "field_matches": {
         "invoice_no": true,
         "invoice_date": true,
-        "total_gross_worth": false,
+        "total_gross_worth": true,
         "seller": true,
         "client": true
       },
@@ -19250,7 +19250,7 @@
         "total_gross_worth": {
           "ground_truth": "$ 187,00",
           "extracted": "$ 187.00",
-          "match": false
+          "match": true
         },
         "seller": {
           "ground_truth": "Cooper-Fox 00959 Gregory Valleys Apt. 881 East Samuel, CA 09564",
@@ -19263,7 +19263,7 @@
           "match": true
         }
       },
-      "all_correct": false
+      "all_correct": true
     },
     {
       "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/validation/invoice/invoice_0042.png",
@@ -19310,7 +19310,7 @@
       "field_matches": {
         "invoice_no": true,
         "invoice_date": true,
-        "total_gross_worth": false,
+        "total_gross_worth": true,
         "seller": true,
         "client": true
       },
@@ -19328,7 +19328,7 @@
         "total_gross_worth": {
           "ground_truth": "$2970,00",
           "extracted": "$ 2 970.00",
-          "match": false
+          "match": true
         },
         "seller": {
           "ground_truth": "Myers Inc 41819 Garrett Pass Suite 517 New Bryan, NC 40626",
@@ -19341,7 +19341,7 @@
           "match": true
         }
       },
-      "all_correct": false
+      "all_correct": true
     },
     {
       "source_file": "/Users/Michael.Zhang/Documents/myob/repos/ocr/document-extraction-learning-group/data/validation/invoice/invoice_0044.png",

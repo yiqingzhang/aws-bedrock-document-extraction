@@ -14,9 +14,9 @@
       "accuracy": 0.98
     },
     "total_gross_worth": {
-      "correct": 439,
+      "correct": 484,
       "total": 501,
-      "accuracy": 0.8762
+      "accuracy": 0.9661
     },
     "seller": {
       "correct": 466,
@@ -30,9 +30,9 @@
     }
   },
   "overall_accuracy": {
-    "correct": 411,
+    "correct": 452,
     "total": 501,
-    "accuracy": 0.8204
+    "accuracy": 0.9022
   },
-  "evaluation_timestamp": "2025-10-27T12:34:13.591542"
+  "evaluation_timestamp": "2025-10-27T22:44:13.244839"
 }

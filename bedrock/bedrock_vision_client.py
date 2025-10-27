@@ -113,24 +113,25 @@ class BedrockVisionClient:
             Exception: If extraction fails after all retries
         """
         # Reason: Clear, structured prompt ensures consistent JSON output format
-        extraction_prompt = """Analyze this invoice image and extract the following information exactly as it appears:
+        extraction_prompt = """
+        Analyze this invoice image and extract the following information exactly as it appears:
 
-1. invoice_no: The invoice number
-2. invoice_date: The invoice date
-3. total_gross_worth: The total gross worth/amount (final total with currency)
-4. seller: The seller's complete name and address
-5. client: The client's complete name and address
+        1. invoice_no: The invoice number
+        2. invoice_date: The invoice date
+        3. total_gross_worth: The total gross worth/amount (final total with currency)
+        4. seller: The seller's complete name and address
+        5. client: The client's complete name and address
 
-Return ONLY a valid JSON object with these exact field names. Do not include any explanation or additional text.
+        Return ONLY a valid JSON object with these exact field names. Do not include any explanation or additional text.
 
-Example format:
-{
-  "invoice_no": "12345678",
-  "invoice_date": "01/15/2023",
-  "total_gross_worth": "$ 1,234.56",
-  "seller": "Company Name and Address",
-  "client": "Client Name and Address"
-}"""
+        Example format:
+        {
+        "invoice_no": "12345678",
+        "invoice_date": "01/15/2023",
+        "total_gross_worth": "$ 1,234.56",
+        "seller": "Company Name and Address",
+        "client": "Client Name and Address"
+        }"""
         
         # Encode the image
         image_base64 = self.encode_image_to_base64(image_path)

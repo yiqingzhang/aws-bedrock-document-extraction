@@ -130,20 +130,55 @@ class ExtractionEvaluator:
         # Reason: Aggressive normalization treats whitespace-only differences as matches
         return re.sub(r'\s+', '', str(text).strip()).lower()
     
-    def exact_match(self, extracted, ground_truth):
+    def normalize_for_field(self, text, field_name):
         """
-        Check if extracted value exactly matches ground truth.
+        Normalize text with field-specific rules for more accurate comparison.
         
-        Uses normalized comparison (whitespace and case-insensitive).
+        Args:
+            text (str): Text to normalize
+            field_name (str): Name of the field (for field-specific rules)
+            
+        Returns:
+            str: Normalized text according to field-specific rules
+        """
+        if text is None:
+            return ""
+        
+        normalized = str(text).strip().lower()
+        
+        # Reason: For monetary values, normalize currency symbols and decimal separators
+        if field_name == 'total_gross_worth':
+            # Remove all whitespace
+            normalized = re.sub(r'\s+', '', normalized)
+            # Remove currency symbols: $, €, £, ¥, ₹, etc.
+            # This makes "$212.09" and "212.09" equivalent
+            normalized = re.sub(r'[$€£¥₹]', '', normalized)
+            # Normalize decimal separators by removing commas and periods
+            # This makes "212,09" and "212.09" equivalent (both become "21209")
+            normalized = re.sub(r'[,.]', '', normalized)
+        else:
+            # Apply whitespace normalization for all other fields
+            normalized = re.sub(r'\s+', '', normalized)
+        
+        return normalized
+    
+    def exact_match(self, extracted, ground_truth, field_name):
+        """
+        Check if extracted value matches ground truth using field-specific normalization.
+        
+        Uses normalized comparison with field-specific rules:
+        - For monetary values: ignores currency symbols and decimal separator differences
+        - For all fields: ignores whitespace and case differences
         
         Args:
             extracted (str): Extracted value
             ground_truth (str): Ground truth value
+            field_name (str): Name of the field being compared
             
         Returns:
-            bool: True if values match, False otherwise
+            bool: True if values match after normalization, False otherwise
         """
-        return self.normalize_string(extracted) == self.normalize_string(ground_truth)
+        return self.normalize_for_field(extracted, field_name) == self.normalize_for_field(ground_truth, field_name)
     
     def evaluate_invoice(self, result_data):
         """
@@ -178,7 +213,8 @@ class ExtractionEvaluator:
             extracted_value = extracted.get(field, '')
             ground_truth_value = ground_truth.get(field, '')
             
-            is_match = self.exact_match(extracted_value, ground_truth_value)
+            # Reason: Pass field name for field-specific normalization rules
+            is_match = self.exact_match(extracted_value, ground_truth_value, field)
             invoice_eval['field_matches'][field] = is_match
             
             # Reason: Store detailed comparison data for debugging and analysis

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice Extraction Analysis Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📄 Invoice Extraction Analysis Viewer</h1>
+            <div class="model-selector">
+                <label for="modelSelect">Select Model:</label>
+                <select id="modelSelect">
+                    <option value="claude_3_5">Claude 3.5 Sonnet</option>
+                    <option value="claude_4_5">Claude 4.5 Sonnet</option>
+                </select>
+            </div>
+        </header>
+
+        <div class="stats-bar">
+            <div class="stat-item">
+                <span class="stat-label">Current Invoice:</span>
+                <span id="invoiceCounter" class="stat-value">0 / 0</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Overall Accuracy:</span>
+                <span id="overallAccuracy" class="stat-value">0%</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Current Match:</span>
+                <span id="currentMatch" class="stat-value">—</span>
+            </div>
+        </div>
+
+        <div class="navigation">
+            <button id="prevBtn" class="nav-btn">← Previous</button>
+            <select id="invoiceSelect" class="invoice-dropdown">
+                <option>Loading...</option>
+            </select>
+            <button id="nextBtn" class="nav-btn">Next →</button>
+        </div>
+
+        <div class="content">
+            <div class="image-panel">
+                <h2>Invoice Image</h2>
+                <div class="image-container">
+                    <img id="invoiceImage" alt="Invoice" />
+                    <div id="imageLoader" class="loader">Loading image...</div>
+                </div>
+                <div class="image-info">
+                    <p id="imageSource"></p>
+                </div>
+            </div>
+
+            <div class="data-panel">
+                <h2>Extraction Results</h2>
+                <div class="table-container">
+                    <table id="resultsTable">
+                        <thead>
+                            <tr>
+                                <th>Field</th>
+                                <th>Ground Truth</th>
+                                <th>Extracted</th>
+                                <th>Match</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="4" class="loading">Loading data...</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>💡 Use keyboard shortcuts: <kbd>←</kbd> Previous | <kbd>→</kbd> Next</p>
+            <p>🔍 Click on mismatched values to see detailed comparison</p>
+        </footer>
+    </div>
+
+    <script src="viewer.js"></script>
+</body>
+</html>
+

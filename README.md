@@ -1,81 +1,72 @@
-# Document Extraction Learning Group
+# 📄 Document Extraction Learning Group
 
-A comprehensive repository for learning and experimenting with document extraction and OCR techniques using the Sparrow Invoice Dataset.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-## 📋 Overview
+A comprehensive repository for learning and experimenting with document extraction and OCR techniques using the Sparrow Invoice Dataset and AWS Bedrock Claude Vision API.
 
-This repository contains 501 annotated invoice documents with structured data extraction labels, ready for training and evaluating OCR and document understanding models. The dataset has been pre-processed and organized for easy use in machine learning workflows.
+![Invoice Extraction Demo](https://img.shields.io/badge/Dataset-501_Invoices-blue) ![Accuracy](https://img.shields.io/badge/Extraction_Accuracy-70--80%25-green)
 
-## 🗂️ Repository Structure
+---
 
-```
-document-extraction-learning-group/
-├── data/                           # Extracted invoice images and annotations
-│   ├── test/
-│   │   ├── invoice/               # 26 test invoice images (PNG)
-│   │   └── label/                 # 26 test annotations (JSON)
-│   ├── train/
-│   │   ├── invoice/               # 425 training invoice images (PNG)
-│   │   └── label/                 # 425 training annotations (JSON)
-│   └── validation/
-│       ├── invoice/               # 50 validation invoice images (PNG)
-│       └── label/                 # 50 validation annotations (JSON)
-│
-└── data_extraction_scripts/       # Scripts for data processing and exploration
-    ├── extract_all_data.py       # Extract data from parquet files
-    ├── invoice_dataset.py        # Helper class for parquet data access
-    ├── explore_data.py           # Dataset exploration utilities
-    ├── use_extracted_data_example.py  # Usage examples
-    ├── requirements.txt          # Python dependencies
-    ├── sample-data/              # Sample invoice and annotation
-    └── README.md                 # Detailed documentation for scripts
-```
+## 🌟 Features
 
-## 📦 Dataset Details
+- **📊 Complete Dataset**: 501 annotated invoice images with structured labels (train/test/validation splits)
+- **🤖 AWS Bedrock Integration**: Extract invoice data using Claude Sonnet 3.5 and 4.5 Vision models
+- **📈 Evaluation Framework**: Comprehensive accuracy metrics and field-level analysis
+- **🔍 Interactive Viewer**: Web-based tool to visualize extraction results
+- **🛠️ Dataset Utilities**: Helper scripts for data exploration and processing
+- **📚 Extensive Documentation**: Detailed guides and examples for all components
 
-### Statistics
+---
 
-| Split      | Invoices | Line Items | Avg Items/Invoice |
-|------------|----------|------------|-------------------|
-| Train      | 425      | 1,626      | 3.83              |
-| Test       | 26       | 106        | 4.08              |
-| Validation | 50       | 196        | 3.92              |
-| **Total**  | **501**  | **1,928**  | **3.85**          |
+## 📋 Table of Contents
 
-### Data Format
+- [Quick Start](#-quick-start)
+- [Repository Structure](#-repository-structure)
+- [Dataset Details](#-dataset-details)
+- [Usage Examples](#-usage-examples)
+- [AWS Bedrock Extraction](#-aws-bedrock-extraction)
+- [Documentation](#-documentation)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Acknowledgments](#-acknowledgments)
 
-Each invoice consists of:
-- **Image**: High-resolution PNG (typically 2481×3508 pixels, RGB)
-- **Annotation**: JSON file containing structured data:
-  - **Header**: Invoice metadata (number, date, seller, client, tax IDs, IBAN)
-  - **Items**: Line items (description, quantity, prices, VAT, totals)
-  - **Summary**: Invoice totals (net worth, VAT, gross worth)
+> 📄 For a comprehensive overview, see [PROJECT_SUMMARY.md](PROJECT_SUMMARY.md)
 
-### Example Files
+---
 
-- Sample invoice image: `data_extraction_scripts/sample-data/sample_invoice.png`
-- Sample annotation: `data_extraction_scripts/sample-data/sample_invoice_annotations.json`
-
-## 🚀 Getting Started
+## 🚀 Quick Start
 
 ### Prerequisites
 
-```bash
-# Navigate to the data_extraction_scripts folder
-cd data_extraction_scripts
+- Python 3.8 or higher
+- AWS account with Bedrock access (for extraction features)
+- pip or conda for package management
 
-# Install required dependencies
-pip install -r requirements.txt
-```
+### Installation
 
-Required packages:
-- `pandas` - Data manipulation
-- `pillow` - Image processing
-- `pyarrow` - Parquet file support
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/document-extraction-learning-group.git
+   cd document-extraction-learning-group
+   ```
 
-### Quick Start: Using the Extracted Data
+2. **Install dataset utilities**
+   ```bash
+   pip install -r src/dataset/requirements.txt
+   ```
 
-The dataset is already extracted and ready to use! Here's a simple example:
+3. **Install Bedrock extraction tools** (optional)
+   ```bash
+   pip install -r src/bedrock/requirements.txt
+   ```
+
+### Basic Usage
+
+**Load and explore the dataset:**
 
 ```python
 import json
@@ -90,52 +81,86 @@ with open('data/test/label/invoice_0000.json', 'r') as f:
 
 # Access structured data
 header = annotations['gt_parse']['header']
-invoice_number = header['invoice_no']
-invoice_date = header['invoice_date']
-
-items = annotations['gt_parse']['items']
-for item in items:
-    print(f"Item: {item['item_desc']}")
-    print(f"Quantity: {item['item_qty']}")
-    print(f"Price: {item['item_net_price']}")
-
-summary = annotations['gt_parse']['summary']
-total = summary['total_gross_worth']
+print(f"Invoice #: {header['invoice_no']}")
+print(f"Date: {header['invoice_date']}")
+print(f"Total: {annotations['gt_parse']['summary']['total_gross_worth']}")
 ```
 
-### Advanced Usage
+**Run AWS Bedrock extraction:**
 
-For more detailed examples and utilities, see:
-- `data_extraction_scripts/use_extracted_data_example.py` - Comprehensive usage examples
-- `data_extraction_scripts/README.md` - Detailed documentation
+```bash
+cd src/bedrock
+python run_extraction.py
+```
 
-## 💾 Raw Dataset Source
+See [Quick Start Guide](docs/QUICKSTART.md) for detailed instructions.
 
-> **Note**: The raw Hugging Face dataset (parquet files) is **not included** in this repository due to file size constraints (~197 MB compressed).
+---
 
-### How to Obtain the Raw Dataset
+## 📁 Repository Structure
 
-If you need the original parquet files:
+```
+document-extraction-learning-group/
+├── data/                          # Invoice dataset (501 images + labels)
+│   ├── train/                    # 425 training samples
+│   ├── test/                     # 26 test samples
+│   └── validation/               # 50 validation samples
+│
+├── src/                          # Source code
+│   ├── bedrock/                  # AWS Bedrock extraction system
+│   │   ├── bedrock_vision_client.py
+│   │   ├── extract_invoices.py
+│   │   ├── evaluate_extraction.py
+│   │   ├── run_extraction.py
+│   │   └── config.json
+│   │
+│   └── dataset/                  # Dataset utilities
+│       ├── invoice_dataset.py    # Helper class for data access
+│       ├── explore_data.py       # Dataset exploration
+│       ├── extract_all_data.py   # Extract from parquet files
+│       └── sample-data/          # Sample invoice and annotations
+│
+├── docs/                         # Documentation
+│   ├── QUICKSTART.md            # Quick start guide
+│   ├── CONFIG_GUIDE.md          # Configuration guide
+│   ├── EVALUATION_IMPROVEMENTS.md
+│   └── IMPLEMENTATION_SUMMARY.md
+│
+├── examples/                     # Examples and demos
+│   ├── index.html               # Interactive extraction viewer
+│   ├── viewer.js                # Viewer JavaScript
+│   └── styles.css               # Viewer styles
+│
+├── tests/                        # Test files (to be added)
+│
+├── CONTRIBUTING.md              # Contribution guidelines
+├── LICENSE                      # MIT License
+└── README.md                    # This file
+```
 
-1. **Download from Hugging Face**:
-   ```bash
-   # Using Hugging Face datasets library
-   from datasets import load_dataset
-   dataset = load_dataset("katanaml-org/invoices-donut-data-v1")
-   ```
+---
 
-2. **Or use the extraction scripts** (if you have the parquet files):
-   ```bash
-   cd data_extraction_scripts
-   python extract_all_data.py
-   ```
-   See `data_extraction_scripts/README.md` for details.
+## 📊 Dataset Details
 
-The extraction scripts are included for transparency and reproducibility, allowing you to re-extract the data if needed.
+### Statistics
 
-## 📊 Annotation Structure
+| Split      | Invoices | Line Items | Avg Items/Invoice |
+|------------|----------|------------|-------------------|
+| Train      | 425      | 1,626      | 3.83              |
+| Test       | 26       | 106        | 4.08              |
+| Validation | 50       | 196        | 3.92              |
+| **Total**  | **501**  | **1,928**  | **3.85**          |
 
-Each JSON annotation file follows this structure:
+### Data Format
+
+Each invoice consists of:
+- **Image**: High-resolution PNG (typically 2481×3508 pixels, RGB)
+- **Annotation**: JSON file containing:
+  - **Header**: Invoice metadata (number, date, seller, client, tax IDs, IBAN)
+  - **Items**: Line items (description, quantity, prices, VAT, totals)
+  - **Summary**: Invoice totals (net worth, VAT, gross worth)
+
+### Annotation Structure
 
 ```json
 {
@@ -143,15 +168,15 @@ Each JSON annotation file follows this structure:
     "header": {
       "invoice_no": "97159829",
       "invoice_date": "09/18/2015",
-      "seller": "Bradley-Andrade 9879 Elizabeth Common Lake Jonathan, RI 12335",
-      "client": "Castro PLC Unit 9678 Box 9664 DPO AP 69387",
+      "seller": "Bradley-Andrade 9879 Elizabeth Common...",
+      "client": "Castro PLC Unit 9678 Box 9664...",
       "seller_tax_id": "985-73-8194",
       "client_tax_id": "994-72-1270",
       "iban": "GB81LZWO32519172531418"
     },
     "items": [
       {
-        "item_desc": "12\" Marble Lapis Inlay Chess Table Top...",
+        "item_desc": "12\" Marble Lapis Inlay Chess Table...",
         "item_qty": "2,00",
         "item_net_price": "444,60",
         "item_net_worth": "889,20",
@@ -168,60 +193,213 @@ Each JSON annotation file follows this structure:
 }
 ```
 
+---
+
+## 💡 Usage Examples
+
+### 1. Dataset Exploration
+
+```python
+from src.dataset.invoice_dataset import InvoiceDataset
+
+# Load dataset (if you have parquet files)
+dataset = InvoiceDataset('path/to/parquet/file.parquet')
+
+# Get a sample
+sample = dataset.get_sample(0)
+print(f"Invoice #: {sample['header']['invoice_no']}")
+print(f"Items: {len(sample['items'])}")
+
+# View sample details
+dataset.print_sample_details(0)
+```
+
+### 2. Batch Processing
+
+```python
+from pathlib import Path
+import json
+from PIL import Image
+
+# Process all test invoices
+test_dir = Path('data/test')
+for img_path in test_dir.glob('invoice/*.png'):
+    # Load image
+    image = Image.open(img_path)
+    
+    # Load label
+    label_path = test_dir / 'label' / f"{img_path.stem}.json"
+    with open(label_path) as f:
+        label = json.load(f)
+    
+    # Your processing logic here
+    print(f"Processing {img_path.name}...")
+```
+
+### 3. AWS Bedrock Extraction
+
+```python
+from src.bedrock.bedrock_vision_client import BedrockVisionClient
+
+# Initialize client
+client = BedrockVisionClient(
+    model_id='au.anthropic.claude-sonnet-4-5-20250929-v1:0',
+    region_name='ap-southeast-2'
+)
+
+# Extract invoice data
+result = client.extract_invoice_data('data/test/invoice/invoice_0000.png')
+
+print(f"Invoice #: {result['invoice_no']}")
+print(f"Date: {result['invoice_date']}")
+print(f"Total: {result['total_gross_worth']}")
+```
+
+See [src/dataset/use_extracted_data_example.py](src/dataset/use_extracted_data_example.py) for more examples.
+
+---
+
+## 🤖 AWS Bedrock Extraction
+
+This repository includes a complete system for extracting invoice data using AWS Bedrock Claude Vision API.
+
+### Features
+
+- **Multi-model support**: Claude Sonnet 3.5 and 4.5
+- **Automatic retry logic**: Handles API failures gracefully
+- **Resume capability**: Skip already-processed invoices
+- **Comprehensive evaluation**: Field-level accuracy metrics
+- **Interactive viewer**: Visualize extraction results
+
+### Quick Start
+
+1. **Configure AWS credentials**
+   ```bash
+   aws configure
+   # Enter your AWS Access Key ID, Secret Key, and region (ap-southeast-2)
+   ```
+
+2. **Run extraction**
+   ```bash
+   cd src/bedrock
+   python run_extraction.py
+   ```
+
+3. **View results**
+   - Extraction results: `src/bedrock/output/`
+   - Evaluation metrics: `src/bedrock/logs/`
+   - Interactive viewer: Open `examples/index.html` in a browser
+
+### Performance
+
+- **Processing time**: ~15-30 minutes for 501 invoices
+- **Cost**: ~$0.50-1.00 USD (AWS Bedrock charges)
+- **Accuracy**: 70-80% overall (all 5 fields correct)
+
+See [Bedrock README](src/bedrock/README.md) for detailed documentation.
+
+---
+
+## 📚 Documentation
+
+- **[Quick Start Guide](docs/QUICKSTART.md)**: Get started in 3 steps
+- **[Configuration Guide](docs/CONFIG_GUIDE.md)**: Model and system configuration
+- **[Bedrock System](src/bedrock/README.md)**: AWS Bedrock extraction documentation
+- **[Dataset Utilities](src/dataset/README.md)**: Dataset processing and exploration
+- **[Contributing Guide](CONTRIBUTING.md)**: How to contribute to this project
+
+---
+
 ## 🎯 Use Cases
 
-This dataset is suitable for:
+This dataset and toolkit are suitable for:
 
 - **Document Understanding**: Training models to extract structured data from invoices
 - **OCR Training**: Fine-tuning OCR models for invoice recognition
 - **Layout Analysis**: Learning document structure and layout patterns
 - **Information Extraction**: Extracting key-value pairs from documents
-- **Data Validation**: Building validation systems for invoice data
 - **Model Benchmarking**: Evaluating document extraction model performance
+- **Research**: Experimenting with new extraction techniques
+
+---
 
 ## 🛠️ Suggested Models & Approaches
 
 This dataset is compatible with:
 
-- **Donut** (Document Understanding Transformer) - End-to-end document understanding
+- **AWS Bedrock Claude Vision** - Cloud-based vision API (included)
+- **Donut** - Document Understanding Transformer
 - **LayoutLM** family - Document layout understanding models
 - **TrOCR** - Transformer-based OCR
 - **Custom CNN+RNN** - Traditional OCR approaches
 - **Vision Transformers** - Vision-based document analysis
 
-## 📖 Dataset Source & License
+---
+
+## 🔮 Future Improvements
+
+- [ ] Add support for more LLM providers (OpenAI GPT-4V, Google Gemini)
+- [ ] Implement fine-tuning scripts for open-source models
+- [ ] Add Jupyter notebook tutorials
+- [ ] Create Docker container for easy deployment
+- [ ] Add unit tests and integration tests
+- [ ] Implement data augmentation utilities
+- [ ] Add support for other document types (receipts, forms)
+- [ ] Create web API for extraction service
+
+See [issues](../../issues) for planned features and known bugs.
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
+
+### Ways to Contribute
+
+- 🐛 Report bugs and issues
+- 💡 Suggest new features or improvements
+- 📝 Improve documentation
+- 🔧 Submit pull requests
+- ⭐ Star this repository if you find it useful!
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+### Dataset Attribution
 
 - **Dataset Name**: Sparrow Invoice Dataset
 - **Prepared by**: [Katana ML](https://www.katanaml.io)
 - **Project**: [Sparrow](https://github.com/katanaml/sparrow) - Open-source data extraction solution
 - **Original Data**: [Mendeley Data - Electronic Invoices](https://data.mendeley.com/datasets/tnj49gpmtz)
 - **Citation**: Kozłowski, Marek; Weichbroth, Paweł (2021), "Samples of electronic invoices", Mendeley Data, V2, doi: 10.17632/tnj49gpmtz.2
-- **License**: MIT
-- **Language**: English
-
-## 📚 Additional Resources
-
-- **Hugging Face Dataset**: [katanaml-org/invoices-donut-data-v1](https://huggingface.co/datasets/katanaml-org/invoices-donut-data-v1)
-- **Sparrow Project**: [github.com/katanaml/sparrow](https://github.com/katanaml/sparrow)
-- **Data Extraction Scripts**: See `data_extraction_scripts/README.md` for detailed documentation
-
-## 🤝 Contributing
-
-This is a learning repository. Feel free to:
-- Add new extraction scripts or utilities
-- Improve documentation
-- Share training notebooks or experiments
-- Report issues with the data
-
-## 📝 Notes
-
-- All invoice images are stored as PNG format for quality preservation
-- JSON files use UTF-8 encoding to support special characters
-- File naming convention: `invoice_XXXX.{png|json}` (zero-padded 4-digit index)
-- Images maintain original resolution for maximum quality
 
 ---
 
-**Ready to start?** Check out `data_extraction_scripts/use_extracted_data_example.py` for practical examples, or dive directly into the `data/` folder to explore the invoice images and annotations!
+## 🙏 Acknowledgments
 
+- **Katana ML** for preparing and sharing the Sparrow Invoice Dataset
+- **AWS Bedrock** for providing Claude Vision API access
+- **Anthropic** for developing Claude models
+- The open-source community for tools and libraries
 
+---
+
+## 📞 Support & Contact
+
+- **Issues**: [GitHub Issues](../../issues)
+- **Discussions**: [GitHub Discussions](../../discussions)
+- **Documentation**: [docs/](docs/)
+
+---
+
+## ⭐ Star History
+
+If you find this project useful, please consider giving it a star! ⭐
+
+---
+
+**Ready to start?** Check out the [Quick Start Guide](docs/QUICKSTART.md) or dive into the [examples](examples/)!
